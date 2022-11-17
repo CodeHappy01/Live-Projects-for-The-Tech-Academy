@@ -38,27 +38,6 @@
   </ol>
 </details>
 
-
-<details>
-  <summary><a href="">[html]</a></summary>
-  <ol>
-    <ul><br>
-      <p>
-
-      </p>
-      <li> Model-    
-
-      </li>
-      <li> Model Form-
-
-      </li>
-      <li> View-
-
-      </li>
-    </ul>
-  </ol>
-</details>
-
 <br>
 
 # About The Project:
@@ -74,7 +53,7 @@ With the ability to pick our own topic and work on our own seperate applications
 
 The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The main pupose of my application is to allow people to keep track of their accomplishments to give them a way to boost there confidence in the future, whenever in need. The idea of tracking accomplishments came from David Goggins [Cookie Jar theory](https://productiveclub.com/cookie-jar-method/#:~:text=The%20cookie%20jar%20method%20is%20a%20technique%20of,yourself%20of%20what%20you%20have%20achieved%20in%20life.)
 
-Although, from the very start, my site revolved around the Cookie Jar idea, it sorta accidently evolved into something much more. From a simple idea of having just the Cookie Jar that maybe let you drop an "accomplishment cookie" in it by a simple button click...
+Although, from the very start, my site revolved around the Cookie Jar idea, it sorta just slowly evolved into something much more. From a simple idea of having just a Cookie Jar that maybe let you drop an "accomplishment cookie" in it by a simple button click...
 
 (Drawing I made during brainstorming phase for my application topic)
 <img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540">
@@ -107,17 +86,14 @@ HTML | CSS | SQLITE | JS | PYTHON | DJANGO | PYCHARM | CANVA
 
 # CookieJar.exe(CRUD):
 
-
-
  <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="CRUD" width="960" height="540">
- 
  
  <br>
 
 ## Create 
 
 <details>
-  <summary>Story 2: Create your model <a href="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_create.html">[html]</a></summary>
+  <summary>Story 2: Create your model <a href="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_create.html">[TPL]</a></summary>
   <ol>
     <ul>
       <p><br>
@@ -136,8 +112,6 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
   </ol>
 </details>
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <br>
@@ -145,7 +119,7 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
 ## Read 
 
 <details>
-  <summary>Story 3: Display all items from database <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_read.html">[html]</a></summary>
+  <summary>Story 3: Display all items from database <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_read.html">[TPL]</a></summary>
   <ol>
     <ul>
       <p><br>
@@ -165,11 +139,11 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
 </details>
 
 <details>
-  <summary>Story 4: Details page <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_details.html">[html]</a></summary>
+  <summary>Story 4: Details page <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_details.html">[TPL]</a></summary>
   <ol>
     <ul><br>
       <p>
-  Create a details page that will show the details of any single item from within the database, as selected by the user. Link this to the index page for each item. Add a details template to the template folder, register the url pattern. Create a views function that will find a single item from the database and send it to the template. Add in a link for each item on the display all items page that will direct to the details page for that item. Display all the details of the item on the details page. 
+  Created a details page that will show the details of any single item from within the database, as selected by the user, link this to the base page for each item. Add a details template to the template folder, register the url pattern. Create a views function that will find a single item from the database and send it to the template. Add in a link for each item on the display all items page that will direct to the details page for that item. Display all the details of the item on the details page. 
       </p>
       <li> Model-    
         
@@ -186,6 +160,26 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
 <br> 
 
 ## Update and Delete 
+
+<details>
+  <summary><a href="">[html]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
+
+      </p>
+      <li> Model-    
+
+      </li>
+      <li> Model Form-
+
+      </li>
+      <li> View-
+
+      </li>
+    </ul>
+  </ol>
+</details>
 
 [Story 5: [Edit](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_update.html) and [Delete](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_delete.html) Functions]
 
@@ -214,6 +208,26 @@ Optional Add-On:
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/BeautifulSoup.PNG" alt="Web-Scraping" width="960" height="540">
 
+<details>
+  <summary><a href="">[TPL]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
+
+      </p>
+      <li> Model-    
+
+      </li>
+      <li> Model Form-
+
+      </li>
+      <li> View-
+
+      </li>
+    </ul>
+  </ol>
+</details>
+
 [[Stories 6 & 7: Beautiful Soup]](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html) 
 
 - Story 6: Create a new template for displaying information sourced from another website. Use Beautiful Soup to data scrape the site and find the relevant information. 
@@ -227,6 +241,26 @@ Utilizing whatever options necessary, get the section of data you want to scrape
 Add comments to note which portions of the data you're trying to extract 
 
 Link the data scraping page to the app's home page 
+
+<details>
+  <summary><a href="">[TPL]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
+
+      </p>
+      <li> Model-    
+
+      </li>
+      <li> Model Form-
+
+      </li>
+      <li> View-
+
+      </li>
+    </ul>
+  </ol>
+</details>
 
 - Story 7: Parse through the html returned and display the information you want to display. Make sure you are getting into the individual elements and stripping away any formatting you don't want. Add a link from your app's home page. 
 
@@ -250,6 +284,26 @@ This is the last Beautiful Soup story. Make sure it has all the functionality th
 
 [[Stories 6 & 7: API]]() 
 
+<details>
+  <summary><a href="">[TPL]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
+
+      </p>
+      <li> Model-    
+
+      </li>
+      <li> Model Form-
+
+      </li>
+      <li> View-
+
+      </li>
+    </ul>
+  </ol>
+</details>
+
 Story 6: Connect to your chosen API and get the JSON response, add in a template for displaying the information. 
 
 Create a new API template and render with a function 
@@ -261,6 +315,26 @@ Connect to the API and write a basic JSON response (either to a txt file or the 
 Add comments of which elements from the JSON response you're looking to get the value for 
 
 Link the API request page to the app's home page. 
+
+<details>
+  <summary><a href="">[TPL]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
+
+      </p>
+      <li> Model-    
+
+      </li>
+      <li> Model Form-
+
+      </li>
+      <li> View-
+
+      </li>
+    </ul>
+  </ol>
+</details>
 
 Story 7: Parse through the JSON file returned and display the information you want to display. Make additional queries to the API as necessary. Add a link from your app's home page. 
 
@@ -277,7 +351,25 @@ This is the last API story. Make sure it has all the functionality that you want
 You are finished with the story when you have information displaying from the API on your API page, and you've added all functionality you want to interact with the API. Make sure to test and debug before submitting. 
 
  
+<details>
+  <summary><a href="">[TPL]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
 
+      </p>
+      <li> Model-    
+
+      </li>
+      <li> Model Form-
+
+      </li>
+      <li> View-
+
+      </li>
+    </ul>
+  </ol>
+</details>
  
 
 [Story 9: Save API or scraped results] 
@@ -292,22 +384,18 @@ You are finished with the story when you have the ability to save an item to the
 
 # Front End Development:
 
-[Story 8: Front End Improvements] 
-
-Go through your various templates and add improvements to the UI/UX. This may include hover effects, pop-ups, animations, changes to the existing styling, etc. Show off your creativity and styling ability with some JavaScript in this. Make sure to test and debug before submitting. 
-
-
-<br>
-
-### Window Browswer Scaling - 
-
-
-<img src="Accomplishment-CookieJar/gifs/Browser-Window-Scaling.gif" alt="Logo" width="960" height="540">
-
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<details>
+  <summary>Story 8: Front End Improvements<a href="">[CSS]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
+  I went back to my templates/CSS/JS and add improvements to the UI/UX.
+      </p>
+    </ul>
+  </ol>
+</details>
 
 <br>
-
 
 ## Christmas
 
@@ -315,15 +403,28 @@ Go through your various templates and add improvements to the UI/UX. This may in
 
 At the end of my stories I decided to have a bit of fun with the time I had left and made a Christmas template through Canva and back in Pycharm I decided to add a Christams video along with a count down till Christmas counter using Javascript: 
 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <br>
 
-### Counter
-
-<img src="Accomplishment-CookieJar/images/ScreenShots/CountDown.PNG" alt="count-down" width="400" height="150">
-
+<details>
+  <summary>Counter</summary>
+  <img src="Accomplishment-CookieJar/images/ScreenShots/CountDown.PNG" alt="count-down" width="400" height="150">
+  <ol>
+    <ul>
+      <li> JS-
 https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/bccf8525bc902442ce7024f828d99df38b968608/Accomplishment-CookieJar/AccomplishmentTracker/static/js/AccomplishmentTracker.js#L13-L66
+      </li>
+    </ul>
+  </ol>
+</details>
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 
+<br>
+
+## Window Browswer Scaling - 
+
+
+<img src="Accomplishment-CookieJar/gifs/Browser-Window-Scaling.gif" alt="Logo" width="960" height="540">
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
