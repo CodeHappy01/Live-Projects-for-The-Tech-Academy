@@ -52,6 +52,7 @@ I made my idea come to life by using the site [Canva](https://www.canva.com/), a
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
 
+
 <br>
 
 # Built With
@@ -69,7 +70,6 @@ HTML | CSS | JS | PYTHON | DJANGO | PYCHARM | CANVA
 
 [Story 2: Create your model] 
 
-Story #2: Create your model 
 
 Create a model for the collection item you will be tracking and add the ability to create a new item. 
 
@@ -81,9 +81,6 @@ Add a template to your app folder for creating a new item.
 
 Add a views function that renders the create page and utilizes the model form to save the collection item to the database. 
 
-Check the database to make sure your item saves without errors. 
-
-Add whatever styling is appropriate to your templates. 
 
 You are finished with the story when you have a functioning create page. This means the user can add to the database through your template rather than through admin. Make sure to test and debug before submitting. 
 
@@ -349,4 +346,13 @@ Obvious skills that I note from the project was working with the model, view, te
 <br>
 
 # Contact:
+
+-I do not plan on posting the entire project as it contains my peers projects. However, I do plan on going back and using this as a framework for a bigger personal project that I wish to work on. If you would like details or are interested in possible collaberating on this project or just want to get in contact for questions you can reach me at my email or LinkedIn.
+
+- Email: bradleyrobles88@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/bradley-robles/)
+
+
+
+
  
