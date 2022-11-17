@@ -46,7 +46,7 @@
 ## About The Project
 During a two week springt at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented peers on a web Application called the "Appbuilder9000"! We worked under Azure Devops environment being assigned 10 stories (2-9 being the main focus) to complete by the end of the sprint. 
 
-<img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="Logo" width="960" height="540">
+<img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="The-Site" width="960" height="540">
 
 Although, we worked on the same site we had the chance to work on are own individual applications that connected to the main page. This allowed my team and I to showcase are own skills while following the stories assigned to us along the way. 
 
@@ -55,18 +55,18 @@ Although, we worked on the same site we had the chance to work on are own indivi
 
 I made my idea come to life by using the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites, etc. 
 
-<img src="Accomplishment-CookieJar/images/ScreenShots/Home.png" alt="Logo" width="960" height="540">
+<img src="Accomplishment-CookieJar/images/ScreenShots/Home.png" alt="My-Application" width="960" height="540">
 
 <br>
 
 # Built With
 
-HTML | CSS | JS | Python | Django
+HTML | CSS | JS | PYTHON | DJANGO
  
 
 # CRUD Functionality Stories
 
- <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="Logo" width="960" height="540">
+ <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="CRUD" width="960" height="540">
  
  <br>
 
@@ -176,7 +176,7 @@ Optional Add-On:
 
 ## Web Scraping 
 
-<img src="" alt="Logo" width="960" height="540">
+<img src="" alt="Web-Scraping" width="960" height="540">
 
 [Stories 6 & 7: Beautiful Soup] 
 
@@ -208,7 +208,7 @@ This is the last Beautiful Soup story. Make sure it has all the functionality th
 
 ## API 
 
-<img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="Logo" width="960" height="540">
+<img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="API" width="960" height="540">
 
 [Stories 6 & 7: API] 
 
@@ -252,7 +252,7 @@ You are finished with the story when you have the ability to save an item to the
 
 # Front End Development
 
-<img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Logo" width="960" height="540">
+<img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
 
 [Story 8: Front End Improvements] 
 
@@ -264,7 +264,9 @@ You are finished with the story when you've added all functionality you want to 
 
 Christmas - 
 
-<img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Logo" width="960" height="540">
+<img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="full-site" width="960" height="540">
+
+<img src="Accomplishment-CookieJar/images/ScreenShots/YoutubeVideo.PNG" alt="youtube" width="960" height="540">
 
 Window Browswer Scaling - 
 
