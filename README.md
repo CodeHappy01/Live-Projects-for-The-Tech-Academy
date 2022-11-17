@@ -16,24 +16,19 @@
     <li>
       <a href="#about-the-project">About The Project:</a>
       <ul>
-        <li><a href="#built-with">Built With:</a></li>
+        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#crud-functionality-stories">CRUD Functionality Stories:</a>
+      <a href="#cookiejarexe(crud)">CookieJar.exe(CRUD):</a>
       <ul>
         <li><a href="#create">Create</a></li>
         <li><a href="#read">Read</a></li>
         <li><a href="#update-and-delete">Update and Delete</a></li>
       </ul>
     </li>
-     <li>
-      <a href="#web-scraping-and-api-stories">Web Scraping and API Stories</a>
-      <ul>
-        <li><a href="#web-scraping">Web Scraping</a></li>
-        <li><a href="#api">API</a></li>
-      </ul>
-    </li>
+    <li><a href="#beautiful-soup">Beautiful Soup</a></li>
+    <li><a href="#joke-api">Joke API</a></li>
     <li><a href="#front-end-development">Front-End Development:</a></li>
     <li><a href="#skills-aquired">Skills Aquired:</a></li>
     <li><a href="#contact">Contact:</a></li>
@@ -59,12 +54,12 @@ I made my idea come to life by using the site [Canva](https://www.canva.com/), a
 
 <br>
 
-# Built With:
+# Built With
 
 HTML | CSS | JS | PYTHON | DJANGO | PYCHARM | CANVA
  
 
-# CRUD Functionality Stories:
+# CookieJar.exe(CRUD):
 
  <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="CRUD" width="960" height="540">
  
@@ -170,11 +165,10 @@ Optional Add-On:
 
 <br>
 
-# Web Scraping and API Stories:
  
  <br>
 
-## Web Scraping 
+# Beautiful Soup 
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/BeautifulSoup.PNG" alt="Web-Scraping" width="960" height="540">
 
@@ -206,7 +200,7 @@ This is the last Beautiful Soup story. Make sure it has all the functionality th
 
 <br> 
 
-## API 
+# Joke API 
 
 <img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="API" width="960" height="540">
 
