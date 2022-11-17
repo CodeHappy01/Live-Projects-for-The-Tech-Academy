@@ -27,8 +27,8 @@
         <li><a href="#update-and-delete">Update and Delete</a></li>
       </ul>
     </li>
-    <li><a href="#beautiful-soup">Beautiful Soup</a></li>
-    <li><a href="#joke-api">Joke API</a></li>
+    <li><a href="#beautiful-soup">Beautiful Soup:</a></li>
+    <li><a href="#joke-api">Joke API:</a></li>
     <li><a href="#front-end-development">Front-End Development:</a></li>
     <li><a href="#skills-aquired">Skills Aquired:</a></li>
     <li><a href="#contact">Contact:</a></li>
@@ -175,7 +175,7 @@ Optional Add-On:
  
  <br>
 
-# Beautiful Soup 
+# Beautiful Soup: 
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/BeautifulSoup.PNG" alt="Web-Scraping" width="960" height="540">
 
@@ -207,7 +207,7 @@ This is the last Beautiful Soup story. Make sure it has all the functionality th
 
 <br> 
 
-# Joke API 
+# Joke API: 
 
 <img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="API" width="960" height="540">
 
