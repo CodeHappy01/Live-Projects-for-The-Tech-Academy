@@ -48,9 +48,11 @@ Although, we worked on the same site we had the chance to work on are own indivi
 <img src="Accomplishment-CookieJar/images/ScreenShots/Home.png" alt="My-Application" width="960" height="540">
 
 
-I made my idea come to life by using the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites, etc. 
+I made my idea come to life by using the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites, etc. I used it mostly for templates and icons for the "computer screen".
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
+
+-----NOTE: I do not plan on posting the entire project where it includes the Appbuilder9000 as it contains my peers projects, but you can find the code to my individual [application]() --
 
 
 <br>
