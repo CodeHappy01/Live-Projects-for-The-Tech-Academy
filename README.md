@@ -20,18 +20,21 @@
       </ul>
     </li>
     <li>
-      <a href="#"></a>
+      <a href="crud-functionality-stories">CRUD Functionality Stories</a>
       <ul>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+        <li><a href="create"></a></li>
+        <li><a href="read"></a></li>
+        <li><a href="update-and-delete"></a></li>
+    </li>
+     <li>
+      <a href="web-scraping-and-api">Web Scraping and API Stories </a>
+      <ul>
+        <li><a href="web-scraping">Web Scraping</a></li>
+        <li><a href="api">API</a></li>
       </ul>
     </li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
+    <li><a href="front-end-development">Front-End Development</a></li>
+    <li><a href="skills-aquired">Skills Aquired</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
