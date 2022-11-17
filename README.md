@@ -39,21 +39,20 @@
 <br>
 
 # About The Project:
-During a two week sprint at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented Software Engineers on a web Application called the "Appbuilder9000"! The goal of the project was to create an app within the Application9000 with a topic of our own choice working with Python and Django utilizing their various features such as Model, View, Template [(MVT)](https://www.geeksforgeeks.org/django-project-mvt-structure/). 
+During a two week sprint at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented Software Engineers on a web Application called the "Appbuilder9000"! The Appbuilder9000 is an interactive website for managing one's collections of things related to various hobbies, as well as API and Data Scraped content for those hobbies.
 
-The goal was also to create databases to keep track of data with a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duriation of the sprint we worked under Azure Devops environment following the Agile/Scrum methodogies and being assigned 1 out of 10 stories (2-9 being the main focus) at a time to complete before the end of the sprint.
+The goal of the project was to create an app within the Application9000 with a topic of our own choice working with Python and Django utilizing their various features such as Model, View, Template [(MVT)](https://www.geeksforgeeks.org/django-project-mvt-structure/). To build the app were to create databases to keep track of data with a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duriation of the sprint we worked under Azure Devops environment following the Agile/Scrum methodogies and being assigned a total of 10 stories (2-9 being the main focus) finishing 1 at a time to complete before the end of the sprint.
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="The-Site" width="960" height="540">
 
 With the ability to pick our own topic and work on out own seperate applications for the main site, this allowed my team and I to free rein to showcase are skills from the back-end to the front-end. 
 
-The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The pupose of my application is to allow people to keep track of their accomplishments to allow them to 
+The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The main pupose of my application is to allow people to keep track of their accomplishments to give them a way to boost there confindence whenever in need. The idea of tracking accomplishments came from  came from David Goggins [Cookie Jar theory](https://productiveclub.com/cookie-jar-method/#:~:text=The%20cookie%20jar%20method%20is%20a%20technique%20of,yourself%20of%20what%20you%20have%20achieved%20in%20life.)
 
-The idea came from....
+Although, my site revouls around the Cookie Jar idea, in kinda accidenlty evolved into something much more. From a simple idea of having just the Cookie Jar to maybe click and drop a cookie, I created a site that allows you to access a "computer screen" by clicking the "FullScreen" from the Main page which allows you to access my y styling 
 
-So, your probaly wondering how I came up with the site idea of having it be a room, well, I have no idea. I honstely just wanted to make a simple site with the ability to drop a cookie in a cookie jar but my creativty just took me another place I went along with it.
 
-<img src="Accomplishment-CookieJar/images/ScreenShots/Home.png" alt="My-Application" width="960" height="540">
+<img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
 
 
 I made my idea come to life by using the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites, etc. I used it mostly for templates and icons for the "computer screen". 
@@ -71,6 +70,8 @@ HTML | CSS | SQLITE | JS | PYTHON | DJANGO | PYCHARM | CANVA
  
 
 # CookieJar.exe(CRUD):
+
+
 
  <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="CRUD" width="960" height="540">
  
@@ -253,7 +254,7 @@ You are finished with the story when you have the ability to save an item to the
 
 # Front End Development:
 
-<img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
+
 
 [Story 8: Front End Improvements] 
 
