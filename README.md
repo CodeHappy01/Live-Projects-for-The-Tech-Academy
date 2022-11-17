@@ -20,6 +20,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#welcometxt">Welcome.txt:</a></li>
     <li>
       <a href="#cookiejarexecrud">CookieJar.exe(CRUD):</a>
       <ul>
@@ -55,7 +56,7 @@ Although, from the very start, my site revolved around the Cookie Jar idea, it s
 (Drawing I made during brainstorming phase for my application topic)
 <img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540">
 
-... I created a site that puts you in a room that allows you to interact with a computer screen within your computer screen. By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the desktop screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api), and the [Welcome.txt](). From the main screen I even added an extra [suprise](#christmas) that lets you access an alter dimension, if you will, where you work in an office building preparing for Christmas time!
+... I created a site that puts you in a room that allows you to interact with a computer screen within your computer screen. By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the desktop screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the main screen I even added an extra [suprise](#christmas) that lets you access an alter dimension, if you will, where you work in an office building preparing for Christmas time!
 
 
 <img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
@@ -73,7 +74,14 @@ I made my idea come to life by using the site [Canva](https://www.canva.com/), a
 ## Built With
 
 HTML | CSS | SQLITE | JS | PYTHON | DJANGO | PYCHARM | CANVA
- 
+
+# Welcome.txt
+
+ <img src="Accomplishment-CookieJar/images/ScreenShots/Welcome.PNG" alt="Welcom" width="960" height="540">
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br>
 
 # CookieJar.exe(CRUD):
 
@@ -309,15 +317,15 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/bccf8525b
 
  
 
-A skill that I found to be pretty good at is utilizing Canva’s to build my backgrounds and icons for my web application. Being able to express my creativity without spending too much time with my own drawings   definitely something that I will take with me and  
+- A skill that I found to be pretty good at is utilizing Canva’s to build my backgrounds and icons for my web application. Being able to express my creativity without spending too much time with my own drawings   definitely something that I will take with me and  
 
  
 
-Another is being able to work with a team of others and communicating how my application works, and even helping others.  
+- Another is being able to work with a team of others and communicating how my application works, and even helping others.  
 
  
 
-Obvious skills that I note from the project was working with the model, view, templates layout of django,.  
+- Obvious skills that I note from the project was working with the model, view, templates layout of django,.  
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
