@@ -1,18 +1,77 @@
-# Python-Live-Project
+<br />
+<div align="center">
+  <a href="#">
+    <img src="Accomplishment-CookieJar/images/ScreenShots/Thumbnail.png" alt="Logo" width="400" height="400">
+  </a>
 
-## Introduction - During a two week springt at The Tech Academy I had the opportunity to work with a team very talented peers on a web Application built with HTML,CSS, JS, Python and the Django framework called the "Applicationbuilder9000"! During
+<h3 align="center">Accomplishment Cookie Jar</h3>
+</div>
+
+<br>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project:</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#cookiejarexe(crud)">CookieJar.exe(CRUD):</a>
+      <ul>
+        <li><a href="#create">Create</a></li>
+        <li><a href="#read">Read</a></li>
+        <li><a href="#update-and-delete">Update and Delete</a></li>
+      </ul>
+    </li>
+    <li><a href="#beautiful-soup">Beautiful Soup</a></li>
+    <li><a href="#joke-api">Joke API</a></li>
+    <li><a href="#front-end-development">Front-End Development:</a></li>
+    <li><a href="#skills-aquired">Skills Aquired:</a></li>
+    <li><a href="#contact">Contact:</a></li>
+    <li><a href="#acknowledgments">Acknowledgments:</a></li>
+  </ol>
+</details>
+
+<br>
+
+# About The Project:
+During a two week springt at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented peers on a web Application called the "Appbuilder9000"! We worked under Azure Devops environment being assigned 10 stories (2-9 being the main focus) to complete by the end of the sprint. 
+
+<img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="The-Site" width="960" height="540">
+
+Although, we worked on the same site we had the chance to work on are own individual applications that connected to the main page. This allowed my team and I to showcase are own skills while following the stories assigned to us along the way. 
+
+<img src="Accomplishment-CookieJar/images/ScreenShots/Home.png" alt="My-Application" width="960" height="540">
+
+
+I made my idea come to life by using the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites, etc. I used it mostly for templates and icons for the "computer screen".
+
+<img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
+
+-----NOTE: This repository does not contain the "Appbuilder9000" as it has my peers projects, but you do have access to the code to my individual [application]() --
+
+
+<br>
+
+# Built With
+
+HTML | CSS | JS | PYTHON | DJANGO | PYCHARM | CANVA
  
 
-##CRUD Functionality 
+# CookieJar.exe(CRUD):
 
+ <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="CRUD" width="960" height="540">
  
- 
+ <br>
 
-Create 
+## Create 
 
 [Story 2: Create your model] 
 
-Story #2: Create your model 
 
 Create a model for the collection item you will be tracking and add the ability to create a new item. 
 
@@ -24,9 +83,6 @@ Add a template to your app folder for creating a new item.
 
 Add a views function that renders the create page and utilizes the model form to save the collection item to the database. 
 
-Check the database to make sure your item saves without errors. 
-
-Add whatever styling is appropriate to your templates. 
 
 You are finished with the story when you have a functioning create page. This means the user can add to the database through your template rather than through admin. Make sure to test and debug before submitting. 
 
@@ -47,12 +103,9 @@ class CookieJar(models.Model):
         return self.Accomplishment
 ```
 
- 
+<br>
 
- 
- 
-
-Read 
+## Read 
 
 [Story 3: Display all items from database] 
 
@@ -86,12 +139,9 @@ Display all the details of the item on the details page.
 
 Add whatever styling is appropriate to your templates. 
 
- 
+<br> 
 
- 
- 
-
-Update and Delete 
+## Update and Delete 
 
 [Story 5: Edit and Delete Functions] 
 
@@ -112,12 +162,14 @@ You are finished with the story when you have a functioning edit page for any it
 Optional Add-On: 
 -Use a modal and javascript for the delete confirmation message 
 
- 
+<br>
 
  
- 
+ <br>
 
-Web Scraping 
+# Beautiful Soup 
+
+<img src="Accomplishment-CookieJar/images/ScreenShots/BeautifulSoup.PNG" alt="Web-Scraping" width="960" height="540">
 
 [Stories 6 & 7: Beautiful Soup] 
 
@@ -145,10 +197,11 @@ Add whatever styling is appropriate to your templates.
 
 This is the last Beautiful Soup story. Make sure it has all the functionality that you want. 
 
- 
- 
+<br> 
 
-API 
+# Joke API 
+
+<img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="API" width="960" height="540">
 
 [Stories 6 & 7: API] 
 
@@ -188,25 +241,97 @@ Allow the user to save "favorites" of an item either from the information detail
 
 You are finished with the story when you have the ability to save an item to the database with a few clicks from either your API page or your Data Scraping page. It is fine to have additional pages for the confirmation and display process. 
 
- 
- 
+<br>
 
-Front End Development 
+# Front End Development:
+
+<img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
 
 [Story 8: Front End Improvements] 
 
-Go through your various templates and add improvements to the UI/UX. This may include hover effects, pop-ups, animations, changes to the existing styling, etc. Show off your creativity and styling ability. 
+Go through your various templates and add improvements to the UI/UX. This may include hover effects, pop-ups, animations, changes to the existing styling, etc. Show off your creativity and styling ability with some JavaScript in this. Make sure to test and debug before submitting. 
 
-You are finished with the story when you've added all functionality you want to for your UI/UX. Ideally, there should be some JavaScript in this. Make sure to test and debug before submitting. 
+### Window Browswer Scaling - 
 
- 
 
-[Any other Front End work you’ve done that you would like to showcase] 
+<img src="Accomplishment-CookieJar/gifs/Browser-Window-Scaling.gif" alt="Logo" width="960" height="540">
 
- 
- 
 
-Skills Acquired: 
+## Christmas
+
+<img src="Accomplishment-CookieJar/images/ScreenShots/ChristmasPNG.PNG" alt="Christmas" width="960" height="540">
+
+At the end of my stories I decided to have a bit of fun with the time I had left and made a Christmas template through Canva and back in Pycharm I decided to add a Christams video along with a count down till Christmas counter using Javascript: 
+
+### Counter
+
+<img src="Accomplishment-CookieJar/images/ScreenShots/CountDown.PNG" alt="count-down" width="400" height="150">
+
+```xml
+/**
+ * JavaScript function, which calculates the days, hours,
+ * minutes and seconds left until Christmas day.
+ * (link: https://thisinterestsme.com/javascript-christmas-countdown/)
+ */
+function calculateChristmasCountdown(){
+
+    //Get today's date.
+    var now = new Date();
+
+    //Get the current month. Add a +1 because
+    //getMonth starts at 0 for January.
+    var currentMonth = (now.getMonth() + 1);
+
+    //Get the current day of the month.
+    var currentDay = now.getDate();
+
+    //Work out the year that the next Christmas
+    //day will occur on.
+    var nextChristmasYear = now.getFullYear();
+    if(currentMonth == 12 && currentDay > 25){
+        //This year's Christmas Day has already passed.
+        nextChristmasYear = nextChristmasYear + 1;
+    }
+
+    var nextChristmasDate = nextChristmasYear + '-12-25T00:00:00.000Z';
+    var christmasDay = new Date(nextChristmasDate);
+
+    //Get the difference in seconds between the two days.
+    var diffSeconds = Math.floor((christmasDay.getTime() - now.getTime()) / 1000);
+
+    var days = 0;
+    var hours = 0;
+    var minutes = 0;
+    var seconds = 0;
+
+    //Don't calculate the time left if it is Christmas day.
+    if(currentMonth != 12 || (currentMonth == 12 && currentDay != 25)){
+        //Convert these seconds into days, hours, minutes, seconds.
+        days = Math.floor(diffSeconds / (3600*24));
+        diffSeconds  -= days * 3600 * 24;
+        hours   = Math.floor(diffSeconds / 3600);
+        diffSeconds  -= hours * 3600;
+        minutes = Math.floor(diffSeconds / 60);
+        diffSeconds  -= minutes * 60;
+        seconds = diffSeconds;
+    }
+
+    //Add our counts to their corresponding HTML elements.
+    document.getElementById('days').innerHTML = days + ' Days';
+    document.getElementById('hours').innerHTML = hours + ' Hours';
+    document.getElementById('minutes').innerHTML = minutes + ' Minutes';
+    document.getElementById('seconds').innerHTML = seconds + ' Seconds';
+
+    //Recursive call after 1 second using setTimeout
+    setTimeout(calculateChristmasCountdown, 1000);
+}
+
+calculateChristmasCountdown();
+```
+
+ <br>
+
+# Skills Acquired: 
 
  
 
@@ -219,4 +344,19 @@ Another is being able to work with a team of others and communicating how my app
  
 
 Obvious skills that I note from the project was working with the model, view, templates layout of django,.  
+
+<br>
+
+# Contact:
+
+- I had an amazing experience with this project and The Tech Academy and happy with what I was able to accomplish within the 2 week time frame. Although there is alot of things I could have done better I learned alot and will be sure to take these lessons into my future projects.
+- 
+-   I actually do plan on going back and using this as a framework for a bigger personal project that I wish to work on. If you would like details or are interested in possible collaberating on this project or even if you just want to get in contact to ask me questions, reach out to me at my email or LinkedIn.
+
+- Email: bradleyrobles88@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/bradley-robles/)
+
+
+
+
  
