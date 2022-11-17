@@ -38,6 +38,27 @@
   </ol>
 </details>
 
+
+<details>
+  <summary><a href="">[html]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
+
+      </p>
+      <li> Model-    
+
+      </li>
+      <li> Model Form-
+
+      </li>
+      <li> View-
+
+      </li>
+    </ul>
+  </ol>
+</details>
+
 <br>
 
 # About The Project:
@@ -95,23 +116,27 @@ HTML | CSS | SQLITE | JS | PYTHON | DJANGO | PYCHARM | CANVA
 
 ## Create 
 
-[[Story 2: Create your model]](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_create.html) 
-
-
-Create a model for the collection item you will be tracking and add the ability to create a new item. 
-
-Create your model and add a migration, make sure to plan out all the categories you want to track for your object. Include an objects manager for accessing the database. 
-
-Create a model form that will include any inputs the user needs to make 
-
-Add a template to your app folder for creating a new item. 
-
-Add a views function that renders the create page and utilizes the model form to save the collection item to the database. 
-
-
-You are finished with the story when you have a functioning create page. This means the user can add to the database through your template rather than through admin. Make sure to test and debug before submitting. 
-
+<details>
+  <summary>Story 2: Create your model <a href="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_create.html">[html]</a></summary>
+  <ol>
+    <ul>
+      <p><br>
+  I create a model for tracking Accomplishments with an objects manager for accessing the database, Create a model form that will include any inputs the user needs to make, add a views function that renders the an html create page and utilizes the model form to save the collection item to the database.
+      </p>
+      <li> Model-    
 https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71f0661360b7deb38fe4b2f0ff7d3c127/Accomplishment-CookieJar/AccomplishmentTracker/models.py#L4-L17
+      </li>
+      <li> Model Form-
+        https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/7eacd8a182faff64c9c6a9f5e7e3dbd99cfa8349/Accomplishment-CookieJar/AccomplishmentTracker/forms.py#L6-L9
+      </li>
+      <li> View-
+        https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71f0661360b7deb38fe4b2f0ff7d3c127/Accomplishment-CookieJar/AccomplishmentTracker/views.py#L33-L42
+      </li>
+    </ul>
+  </ol>
+</details>
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,39 +144,42 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
 
 ## Read 
 
-[[Story 3: Display all items from database]](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_read.html) 
+<details>
+  <summary>Story 3: Display all items from database <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_read.html">[html]</a></summary>
+  <ol>
+    <ul>
+      <p><br>
+  Display information from the database in a page. Create a new HTML page, link it from your home page. Add in a function that gets all the items from the database and sends them to the template. Display a list of items from the database, with some of the fields for that item displayed with labels/headers. Add whatever styling is appropriate to your templates. 
+      </p>
+      <li> Model-    
 
-Display information from the database in a page. 
+      </li>
+      <li> Model Form-
 
-Create a new HTML page, link it from your home page 
+      </li>
+      <li> View-
+        https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71f0661360b7deb38fe4b2f0ff7d3c127/Accomplishment-CookieJar/AccomplishmentTracker/views.py#L45-L50
+      </li>
+    </ul>
+  </ol>
+</details>
 
-Add in a function that gets all the items from the database and sends them to the template 
+<details>
+  <summary>Story 4: Details page <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_details.html">[html]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
+  Create a details page that will show the details of any single item from within the database, as selected by the user. Link this to the index page for each item. Add a details template to the template folder, register the url pattern. Create a views function that will find a single item from the database and send it to the template. Add in a link for each item on the display all items page that will direct to the details page for that item. Display all the details of the item on the details page. 
+      </p>
+      <li> Model-    
+        
+      </li>
+      <li> View-
 
-Display a list of items from the database, with some of the fields for that item displayed with labels/headers. 
-
-Add whatever styling is appropriate to your templates. 
-
-You are finished with the story when you have a functioning page that lists the items in the database. Make sure to test and debug before submitting. 
-
-https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71f0661360b7deb38fe4b2f0ff7d3c127/Accomplishment-CookieJar/AccomplishmentTracker/views.py#L45-L50
-
- 
-
-[Story 4: Details page](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_details.html) 
-
- 
-
-Create a details page that will show the details of any single item from within the database, as selected by the user. Link this to the index page for each item. 
-
-Add a details template to the template folder, register the url pattern 
-
-Create a views function that will find a single item from the database and send it to the template 
-
-Add in a link for each item on the display all items page that will direct to the details page for that item 
-
-Display all the details of the item on the details page. 
-
-Add whatever styling is appropriate to your templates. 
+      </li>
+    </ul>
+  </ol>
+</details>
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,9 +214,9 @@ Optional Add-On:
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/BeautifulSoup.PNG" alt="Web-Scraping" width="960" height="540">
 
-[Stories 6 & 7: Beautiful Soup] 
+[[Stories 6 & 7: Beautiful Soup]](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html) 
 
-Story 6: Create a new template for displaying information sourced from another website. Use Beautiful Soup to data scrape the site and find the relevant information. 
+- Story 6: Create a new template for displaying information sourced from another website. Use Beautiful Soup to data scrape the site and find the relevant information. 
 
 Create a new template for displaying the content 
 
@@ -200,7 +228,7 @@ Add comments to note which portions of the data you're trying to extract
 
 Link the data scraping page to the app's home page 
 
-Story 7: Parse through the html returned and display the information you want to display. Make sure you are getting into the individual elements and stripping away any formatting you don't want. Add a link from your app's home page. 
+- Story 7: Parse through the html returned and display the information you want to display. Make sure you are getting into the individual elements and stripping away any formatting you don't want. Add a link from your app's home page. 
 
 Get elements out of your Beautiful Soup object, send just the values you want as relevant dictionary objects to the template (nested dictionaries are fine) 
 
@@ -220,7 +248,7 @@ This is the last Beautiful Soup story. Make sure it has all the functionality th
 
 <img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="API" width="960" height="540">
 
-[Stories 6 & 7: API] 
+[[Stories 6 & 7: API]]() 
 
 Story 6: Connect to your chosen API and get the JSON response, add in a template for displaying the information. 
 
