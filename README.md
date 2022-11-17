@@ -76,7 +76,6 @@ HTML | CSS | SQLITE | JS | PYTHON | DJANGO | PYCHARM | CANVA
 
  <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="CRUD" width="960" height="540">
  
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
  <br>
 
@@ -268,7 +267,6 @@ You are finished with the story when you have the ability to save an item to the
 
 Go through your various templates and add improvements to the UI/UX. This may include hover effects, pop-ups, animations, changes to the existing styling, etc. Show off your creativity and styling ability with some JavaScript in this. Make sure to test and debug before submitting. 
 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <br>
 
