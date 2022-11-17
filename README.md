@@ -58,7 +58,7 @@ Although, from the very start, my site revolved around the Cookie Jar idea, it s
 (Drawing I made during brainstorming phase for my application topic)
 <img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540">
 
-I was able to create a site that puts you in a room that allows you to interact with a computer screen within your computer screen! By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the desktop screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the main screen I even added an extra [suprise](#christmas) that lets you access an alter dimension, if you will, where you work in an office building preparing for Christmas time!
+I was able to create a site that puts you in a room that allows you to interact with a computer screen within your computer screen! By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the desktop screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the main screen I even added a [Christmas](#christmas) suprise that lets you access an alter dimension, if you will, where you work in an office building preparing for Christmas time!
 
 
 <img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
@@ -76,7 +76,7 @@ HTML | CSS | SQLITE | JS | PYTHON | DJANGO | PYCHARM | CANVA
 
 # Welcome.txt
 
- <img src="Accomplishment-CookieJar/images/ScreenShots/Welcome.PNG" alt="Welcom" width="960" height="540">
+ <img src="Accomplishment-CookieJar/images/ScreenShots/Welcome.PNG" alt="Welcome" width="960" height="540">
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
