@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-  <a href="#">
+  <a href="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker">
     <img src="Accomplishment-CookieJar/images/ScreenShots/Thumbnail.png" alt="Logo" width="400" height="400">
   </a>
 
@@ -39,7 +39,7 @@
 <br>
 
 # About The Project:
-During a two week springt at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented peers on a web Application called the "Appbuilder9000"! We worked under Azure Devops environment being assigned 10 stories (2-9 being the main focus) to complete by the end of the sprint. 
+During a two week springt at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented Software Engineers on a web Application called the "Appbuilder9000"! We worked under Azure Devops environment following the Agile/Scrum methodogies and being assigned 10 stories (2-9 being the main focus) to complete by the end of the sprint. The main goal of the project was to create an app that we had was to be able to create a Create, Read, Update, Delete (CRUD) functionality, 
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="The-Site" width="960" height="540">
 
@@ -52,7 +52,7 @@ I made my idea come to life by using the site [Canva](https://www.canva.com/), a
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
 
------NOTE: This repository does not contain the "Appbuilder9000" as it has my peers projects, but you do have access to the code to my individual [application]() --
+-----NOTE: This repository does NOT contain the "Appbuilder9000" as I do not have permission to share my peers projects, but you do have access to the code to my individual [application](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker) --
 
 
 <br>
