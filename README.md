@@ -349,7 +349,9 @@ Obvious skills that I note from the project was working with the model, view, te
 
 # Contact:
 
--I do not plan on posting the entire project as it contains my peers projects. However, I do plan on going back and using this as a framework for a bigger personal project that I wish to work on. If you would like details or are interested in possible collaberating on this project or just want to get in contact for questions you can reach me at my email or LinkedIn.
+- I had an amazing experience with this project and The Tech Academy and happy with what I was able to accomplish within the 2 week time frame. Although there is alot of things I could have done better I learned alot and will be sure to take these lessons into my future projects.
+- 
+-   I actually do plan on going back and using this as a framework for a bigger personal project that I wish to work on. If you would like details or are interested in possible collaberating on this project or even if you just want to get in contact to ask me questions, reach out to me at my email or LinkedIn.
 
 - Email: bradleyrobles88@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/bradley-robles/)
