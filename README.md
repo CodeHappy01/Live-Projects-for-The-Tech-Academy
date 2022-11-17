@@ -61,10 +61,10 @@ I made my idea come to life by using the site [Canva](https://www.canva.com/), a
 
 # Built With:
 
-HTML | CSS | JS | PYTHON | DJANGO
+HTML | CSS | JS | PYTHON | DJANGO | PYCHARM | CANVA
  
 
-# CRUD Functionality Stories
+# CRUD Functionality Stories:
 
  <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="CRUD" width="960" height="540">
  
@@ -176,7 +176,7 @@ Optional Add-On:
 
 ## Web Scraping 
 
-<img src="" alt="Web-Scraping" width="960" height="540">
+<img src="Accomplishment-CookieJar/images/ScreenShots/BeautifulSoup.PNG" alt="Web-Scraping" width="960" height="540">
 
 [Stories 6 & 7: Beautiful Soup] 
 
@@ -256,19 +256,23 @@ You are finished with the story when you have the ability to save an item to the
 
 [Story 8: Front End Improvements] 
 
-Go through your various templates and add improvements to the UI/UX. This may include hover effects, pop-ups, animations, changes to the existing styling, etc. Show off your creativity and styling ability. 
+Go through your various templates and add improvements to the UI/UX. This may include hover effects, pop-ups, animations, changes to the existing styling, etc. Show off your creativity and styling ability with some JavaScript in this. Make sure to test and debug before submitting. 
 
-You are finished with the story when you've added all functionality you want to for your UI/UX. Ideally, there should be some JavaScript in this. Make sure to test and debug before submitting. 
+### Window Browswer Scaling - 
 
-[Any other Front End work you’ve done that you would like to showcase] 
+
+<img src="Accomplishment-CookieJar/gifs/Browser-Window-Scaling.gif" alt="Logo" width="960" height="540">
+
 
 ## Christmas
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/ChristmasPNG.PNG" alt="Christmas" width="960" height="540">
 
-At the end of my stories I decided to kinda have fun and make a Christmas template through canva and back in Pycharm I decided to add a Christams video along with a count down till Christmas counter using Javascript: 
+At the end of my stories I decided to have a bit of fun with the time I had left and made a Christmas template through Canva and back in Pycharm I decided to add a Christams video along with a count down till Christmas counter using Javascript: 
 
-### Count Down Till Christmas
+### Counter
+
+<img src="Accomplishment-CookieJar/images/ScreenShots/CountDown.PNG" alt="count-down" width="400" height="150">
 
 ```xml
 /**
@@ -331,15 +335,6 @@ function calculateChristmasCountdown(){
 
 calculateChristmasCountdown();
 ```
-
-<img src="" alt="youtube" width="960" height="540">
-
-Window Browswer Scaling - 
-
-<img src="Accomplishment-CookieJar/gifs/Browser-Window-Scaling.gif" alt="Logo" width="960" height="540">
-
-
-
 
  <br>
 
