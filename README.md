@@ -7,6 +7,8 @@
 <h3 align="center">Accomplishment Cookie Jar</h3>
 </div>
 
+<br>
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -35,6 +37,8 @@
   </ol>
 </details>
 
+<br>
+
 ## About The Project
 During a two week springt at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented peers on a web Application called the "Applicationbuilder9000"! During 
 
@@ -46,6 +50,8 @@ Although, we worked on the same site we had the chance to work on are own indivi
 I made my idea come to life my using the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites, etc.
 <img src="" alt="Logo" width="960" height="540">
 
+<br>
+
 # Built With
 
 HTML | CSS | JS | Python | Django
@@ -55,6 +61,7 @@ HTML | CSS | JS | Python | Django
 
  <img src="" alt="Logo" width="960" height="540">
  
+ <br>
 
 ## Create 
 
@@ -95,10 +102,7 @@ class CookieJar(models.Model):
         return self.Accomplishment
 ```
 
- 
-
- 
- 
+<br>
 
 ## Read 
 
@@ -134,10 +138,7 @@ Display all the details of the item on the details page.
 
 Add whatever styling is appropriate to your templates. 
 
- 
-
- 
- 
+<br> 
 
 ## Update and Delete 
 
@@ -160,10 +161,11 @@ You are finished with the story when you have a functioning edit page for any it
 Optional Add-On: 
 -Use a modal and javascript for the delete confirmation message 
 
- 
+<br>
 
-Web Scraping and API Stories 
+# Web Scraping and API Stories 
  
+ <br>
 
 ## Web Scraping 
 
@@ -195,8 +197,7 @@ Add whatever styling is appropriate to your templates.
 
 This is the last Beautiful Soup story. Make sure it has all the functionality that you want. 
 
- 
- 
+<br> 
 
 ## API 
 
@@ -240,8 +241,7 @@ Allow the user to save "favorites" of an item either from the information detail
 
 You are finished with the story when you have the ability to save an item to the database with a few clicks from either your API page or your Data Scraping page. It is fine to have additional pages for the confirmation and display process. 
 
- 
- 
+<br>
 
 # Front End Development 
 
@@ -259,8 +259,7 @@ You are finished with the story when you've added all functionality you want to 
 
 <img src="" alt="Logo" width="960" height="540">
 
- 
- 
+ <br>
 
 # Skills Acquired: 
 
@@ -275,4 +274,8 @@ Another is being able to work with a team of others and communicating how my app
  
 
 Obvious skills that I note from the project was working with the model, view, templates layout of django,.  
+
+<br>
+
+# Contact
  
