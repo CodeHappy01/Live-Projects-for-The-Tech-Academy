@@ -52,6 +52,7 @@ The Application that I decided to create was [The Accomplishment Cookie Jar](htt
 
 Although, my site revolves around the Cookie Jar idea, it sorta accidently evolved into something much more. From a simple idea of having just the Cookie Jar that maybe let you drop a cookie in it from a simple click...
 
+(Drawing I made during brainstorming phase for my application topic)
 <img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540">
 
 I created a site that allows you to access a "computer screen" by clicking the "Full Screen" button from the main page which lets you interact with three other apps. [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api)    styling 
