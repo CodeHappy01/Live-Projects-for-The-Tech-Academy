@@ -39,11 +39,19 @@
 <br>
 
 # About The Project:
-During a two week springt at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented Software Engineers on a web Application called the "Appbuilder9000"! We worked under Azure Devops environment following the Agile/Scrum methodogies and being assigned 10 stories (2-9 being the main focus) to complete by the end of the sprint. The main goal of the project was to create an app that we had was to be able to create a Create, Read, Update, Delete (CRUD) functionality, 
+During a two week sprint at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented Software Engineers on a web Application called the "Appbuilder9000"! The goal of the project was to create an app within the Application9000 with a topic of our own choice working with Python and Django utilizing their various features such as Model, View, Template [(MVT)](https://www.geeksforgeeks.org/django-project-mvt-structure/). 
+
+The goal was also to create databases to keep track of data with a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duriation of the sprint we worked under Azure Devops environment following the Agile/Scrum methodogies and being assigned 1 of 10 stories (2-9 being the main focus) at a time to complete before the end of the sprint.
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="The-Site" width="960" height="540">
 
-Although, we worked on the same site we had the chance to work on are own individual applications that connected to the main page. This allowed my team and I to showcase are own skills while following the stories assigned to us along the way. 
+With the ability to pick our own topic and work on out own seperate applications for the main site, this allowed my team and I to free rein to showcase are skills from the back-end to the front-end. 
+
+The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The pupose of my application is to allow people to keep track of their accomplishments to allow them to 
+
+The idea came from....
+
+So, your probaly wondering how I came up with the site idea of having it be a room, well, I have no idea. I honstely just wanted to make a simple site with the ability to drop a cookie in a cookie jar, howev
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Home.png" alt="My-Application" width="960" height="540">
 
@@ -59,7 +67,7 @@ I made my idea come to life by using the site [Canva](https://www.canva.com/), a
 
 # Built With
 
-HTML | CSS | JS | PYTHON | DJANGO | PYCHARM | CANVA
+HTML | CSS | SQLITE | JS | PYTHON | DJANGO | PYCHARM | CANVA
  
 
 # CookieJar.exe(CRUD):
