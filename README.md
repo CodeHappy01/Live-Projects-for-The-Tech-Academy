@@ -1,14 +1,59 @@
-# Python-Live-Project
+<br />
+<div align="center">
+  <a href="#">
+    <img src="Accomplishment-CookieJar/images/ScreenShots/Thumbnail.png" alt="Logo" width="400" height="400">
+  </a>
 
-## Introduction - During a two week springt at The Tech Academy I had the opportunity to work with a team very talented peers on a web Application built with HTML,CSS, JS, Python and the Django framework called the "Applicationbuilder9000"! During
+<h3 align="center">Accomplishment Cookie Jar</h3>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#"></a>
+      <ul>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+## About The Project
+During a two week springt at The Tech Academy I had the opportunity to work with a team of very talented peers on a web Application called the "Applicationbuilder9000"! During 
+
+<img src="" alt="Logo" width="960" height="540">
+
+Although, we worked on the same site we had the chance to work on are own individual applications that connected to the main page. 
+<img src="" alt="Logo" width="960" height="540">
+
+# Built With
+
+HTML | CSS | JS | Python | Django
  
 
-##CRUD Functionality 
+# CRUD Functionality Stories
 
- 
+ <img src="" alt="Logo" width="960" height="540">
  
 
-Create 
+## Create 
 
 [Story 2: Create your model] 
 
@@ -52,7 +97,7 @@ class CookieJar(models.Model):
  
  
 
-Read 
+## Read 
 
 [Story 3: Display all items from database] 
 
@@ -91,7 +136,7 @@ Add whatever styling is appropriate to your templates.
  
  
 
-Update and Delete 
+## Update and Delete 
 
 [Story 5: Edit and Delete Functions] 
 
@@ -114,10 +159,12 @@ Optional Add-On:
 
  
 
- 
+Web Scraping and API Stories 
  
 
-Web Scraping 
+## Web Scraping 
+
+<img src="" alt="Logo" width="960" height="540">
 
 [Stories 6 & 7: Beautiful Soup] 
 
@@ -148,7 +195,9 @@ This is the last Beautiful Soup story. Make sure it has all the functionality th
  
  
 
-API 
+## API 
+
+<img src="" alt="Logo" width="960" height="540">
 
 [Stories 6 & 7: API] 
 
@@ -191,7 +240,9 @@ You are finished with the story when you have the ability to save an item to the
  
  
 
-Front End Development 
+# Front End Development 
+
+<img src="" alt="Logo" width="960" height="540">
 
 [Story 8: Front End Improvements] 
 
@@ -203,10 +254,12 @@ You are finished with the story when you've added all functionality you want to 
 
 [Any other Front End work you’ve done that you would like to showcase] 
 
+<img src="" alt="Logo" width="960" height="540">
+
  
  
 
-Skills Acquired: 
+# Skills Acquired: 
 
  
 
