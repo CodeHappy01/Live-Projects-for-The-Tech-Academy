@@ -153,6 +153,8 @@ Display all the details of the item on the details page.
 
 Add whatever styling is appropriate to your templates. 
 
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <br> 
 
 ## Update and Delete 
@@ -176,10 +178,9 @@ You are finished with the story when you have a functioning edit page for any it
 Optional Add-On: 
 -Use a modal and javascript for the delete confirmation message 
 
-<br>
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
- 
- <br>
+<br>
 
 # Beautiful Soup: 
 
@@ -210,6 +211,8 @@ Test to make sure everything works as expected, do error handling where necessar
 Add whatever styling is appropriate to your templates. 
 
 This is the last Beautiful Soup story. Make sure it has all the functionality that you want. 
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <br> 
 
@@ -255,20 +258,28 @@ Allow the user to save "favorites" of an item either from the information detail
 
 You are finished with the story when you have the ability to save an item to the database with a few clicks from either your API page or your Data Scraping page. It is fine to have additional pages for the confirmation and display process. 
 
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <br>
 
 # Front End Development:
-
-
 
 [Story 8: Front End Improvements] 
 
 Go through your various templates and add improvements to the UI/UX. This may include hover effects, pop-ups, animations, changes to the existing styling, etc. Show off your creativity and styling ability with some JavaScript in this. Make sure to test and debug before submitting. 
 
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br>
+
 ### Window Browswer Scaling - 
 
 
 <img src="Accomplishment-CookieJar/gifs/Browser-Window-Scaling.gif" alt="Logo" width="960" height="540">
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br>
 
 
 ## Christmas
@@ -277,13 +288,19 @@ Go through your various templates and add improvements to the UI/UX. This may in
 
 At the end of my stories I decided to have a bit of fun with the time I had left and made a Christmas template through Canva and back in Pycharm I decided to add a Christams video along with a count down till Christmas counter using Javascript: 
 
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br>
+
 ### Counter
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/CountDown.PNG" alt="count-down" width="400" height="150">
 
 https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/bccf8525bc902442ce7024f828d99df38b968608/Accomplishment-CookieJar/AccomplishmentTracker/static/js/AccomplishmentTracker.js#L13-L66
 
- <br>
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br>
 
 # Skills Acquired: 
 
@@ -299,6 +316,8 @@ Another is being able to work with a team of others and communicating how my app
 
 Obvious skills that I note from the project was working with the model, view, templates layout of django,.  
 
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <br>
 
 # Contact:
@@ -309,6 +328,10 @@ Obvious skills that I note from the project was working with the model, view, te
 
 - Email: bradleyrobles88@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/bradley-robles/)
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br>
 
 
 
