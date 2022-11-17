@@ -41,7 +41,7 @@
 # About The Project:
 During a two week sprint at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented Software Engineers on a web Application called the "Appbuilder9000"! The goal of the project was to create an app within the Application9000 with a topic of our own choice working with Python and Django utilizing their various features such as Model, View, Template [(MVT)](https://www.geeksforgeeks.org/django-project-mvt-structure/). 
 
-The goal was also to create databases to keep track of data with a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duriation of the sprint we worked under Azure Devops environment following the Agile/Scrum methodogies and being assigned 1 of 10 stories (2-9 being the main focus) at a time to complete before the end of the sprint.
+The goal was also to create databases to keep track of data with a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duriation of the sprint we worked under Azure Devops environment following the Agile/Scrum methodogies and being assigned 1 out of 10 stories (2-9 being the main focus) at a time to complete before the end of the sprint.
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="The-Site" width="960" height="540">
 
@@ -51,12 +51,12 @@ The Application that I decided to create was [The Accomplishment Cookie Jar](htt
 
 The idea came from....
 
-So, your probaly wondering how I came up with the site idea of having it be a room, well, I have no idea. I honstely just wanted to make a simple site with the ability to drop a cookie in a cookie jar, howev
+So, your probaly wondering how I came up with the site idea of having it be a room, well, I have no idea. I honstely just wanted to make a simple site with the ability to drop a cookie in a cookie jar but my creativty just took me another place I went along with it.
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Home.png" alt="My-Application" width="960" height="540">
 
 
-I made my idea come to life by using the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites, etc. I used it mostly for templates and icons for the "computer screen".
+I made my idea come to life by using the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites, etc. I used it mostly for templates and icons for the "computer screen". 
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
 
