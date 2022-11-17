@@ -1,0 +1,19 @@
+{% extends "AccomplishmentTracker/AccomplishmentTracker_homeFS.html" %}
+
+{% block title %}Beautiful Soup 🥣{% endblock %}
+
+{% block additional_styles %}
+    background-image: url("/static/images/CookieJar_Beautiful_Soup.png");
+{% endblock %}
+
+{% block content %}
+<div class="bsDiv">
+    <h1 class="bsHeading">Beautiful Soup</h1>
+    <h4 class="bsHeading">Scraped from: <a target="_blank" href="https://productiveclub.com/cookie-jar-method/#How_to_apply_the_cookie_jar_method">Link</a></h4>
+    <br>
+    <p>{{ info }}</p>
+    <br>
+    <blockquote class="bsQuote"> "{{ info_quote }}"</blockquote>
+    <p>David Goggins</p>
+</div>
+{% endblock %}

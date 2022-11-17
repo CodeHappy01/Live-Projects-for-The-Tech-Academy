@@ -1,0 +1,12 @@
+{% extends "AccomplishmentTracker/AccomplishmentTracker_homeFS.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block additional_styles %}
+    background-image: url("/static/images/CookieJar_Welcome.png");
+{% endblock %}
+
+{% block screen %} <!-- Allows me to change button to FullScreen or Minimize -->
+    <li><a href="{% url 'cookie_jar_home' %}">Home</a></li>
+{% endblock %}
+

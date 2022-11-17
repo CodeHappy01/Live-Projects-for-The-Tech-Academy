@@ -1,0 +1,7 @@
+<!-- CREATE A RECORD IN SAVED JOKES DB-->
+<form method="POST" action="{% url 'cookie_save_joke' %}" class="saveJokeForm">
+        {% csrf_token %}    <!--Cross Site Request Forgery (csrf_token) Protection-->
+        <input type="text" name="Setup" value="{{ setup }}">
+        <input type="text" name="Delivery" value="{{ delivery }}">
+        <button type="submit">Save Joke</button>
+</form>

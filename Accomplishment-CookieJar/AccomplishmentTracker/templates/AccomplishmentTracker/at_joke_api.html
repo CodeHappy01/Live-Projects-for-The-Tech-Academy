@@ -1,0 +1,23 @@
+{% extends "AccomplishmentTracker/AccomplishmentTracker_homeFS.html" %}
+
+{% block title %}Joke API{% endblock %}
+
+{% block additional_styles %}
+    background-image: url("/static/images/CookieJar_Joke_API.png");
+{% endblock %}
+
+{% block content %}
+<div class="apiDiv">
+    <h1>Joke API</h1>
+    <h2 class="apiSubHead">Setup:</h2>
+    <p>{{ setup }}</p>
+    <h2 class="apiSubHead">Punchline:</h2>
+    <p>{{ delivery }}</p>
+    <!-- refreshes page to load new "joke" from API-->
+    <button onClick="window.location.reload();">Load New</button>
+    <div class="saveAPI">
+        {% include "AccomplishmentTracker/at_save_joke_api.html" %}
+        <button><a href="{% url 'cookie_read_joke' %}">Read Saved Jokes</a></button>
+    </div>
+</div>
+{% endblock %}

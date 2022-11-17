@@ -1,0 +1,18 @@
+{% extends "AccomplishmentTracker/AccomplishmentTracker_homeFS.html" %}
+
+{% block title %}Update{% endblock %}
+
+{% block additional_styles %}
+    background-image: url("/static/images/CookieJar_Create.png");
+{% endblock %}
+
+{% block content %}
+<h1>Update Accomplishment</h1>
+<form method="POST">
+			{% csrf_token %}
+			{{ form.as_p }}
+			<button type="submit">Save Changes</button>
+		</form>
+		<button type="submit"><a class="Delete" href="{% url 'cookie_delete' entry.id %}">Delete</a></button>
+<button type="submit"><a href="{% url 'cookie_details' entry.id %}">Return</a></button>
+{% endblock %}

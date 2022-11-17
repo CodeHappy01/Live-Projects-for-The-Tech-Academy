@@ -1,0 +1,26 @@
+{% extends "AccomplishmentTracker/AccomplishmentTracker_homeFS.html" %}
+
+{% block title %}The Cookie Jar{% endblock %}
+
+{% block additional_styles %}
+    background-image: url("/static/images/CookieJar_Read.png");
+{% endblock %}
+
+{% block content %}
+<h1>Consume a Cookie</h1>
+    <div class="CookieListContainer"> <!-- Class for Scrolling on table -->
+        <table>
+            <tr class="CookieListHeader"> <!-- Locks CookieListHeader -->
+                <th>Cookies</a></th>
+                <th>Creation Date</a></th>
+            </tr>
+            {% for e in entry %}
+            <tr>
+                <td><a href="{% url 'cookie_details' e.id %}">{{ e.Title }} 🍪</a></td>
+                <td>{{ e.Date }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+<button><a href="{% url 'cookie_create' %}">Add Accomplishment</a></button>
+{% endblock %}

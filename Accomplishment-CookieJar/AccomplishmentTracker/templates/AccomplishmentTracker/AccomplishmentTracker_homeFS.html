@@ -1,0 +1,64 @@
+<!-- NOTE: Templates will start extending from this template instead of base -->
+{% extends "AccomplishmentTracker/AccomplishmentTracker_base.html" %}
+
+{% block title %}Screen{% endblock %}
+
+{% block additional_styles %}
+    background-image: url("/static/images/CookieJar_FS.png");
+{% endblock %}
+
+{% block nav %}
+{% endblock %}
+
+{% block screen %} <!-- Allows me to change button to FullScreen or Minimize -->
+    <li><a href="{% url 'cookie_jar_home' %}">Home</a></li>
+{% endblock %}
+
+{% block music %}{% endblock %} <!-- Blocks Music in FullScreen -->
+{% block content %}{% endblock %}
+
+{% block icons %}
+<div class="icon-grid" id="apps">
+        <br><br>
+            <div class="grid">
+
+                <!-- CookieJar.exe -->
+                <a href="{% url 'cookie_create' %}" class="grid-item app-image">
+                    <div class="icon-div">
+                        <img class="icon" src="/static/images/icons/icon_1.png" draggable="true" ondragstart="drag(event)">
+                        <p>Cookie.exe🍪</p> <!-- Placeholder for when browser window is scaled below 1000px x 1800px-->
+                     </div>
+                </a>
+                <!-- END CookieJar.exe -->
+
+                <!-- Beautiful Soup Icon -->
+                <a href="{% url 'cookie_bs' %}" class="grid-item app-image">
+                    <div class="icon-div">
+                        <img class="icon" src="/static/images/icons/icon_2.png" draggable="true" ondragstart="drag(event)">
+                        <p>Beautiful Soup🥣</p>
+                    </div>
+                </a>
+                <!-- END Beautiful Soup Icon -->
+
+                <!-- Joke API Icon  -->
+                <a href="{% url 'cookie_joke_api' %}" class="grid-item app-image">
+                    <div class="icon-div">
+                        <img class="icon" src="/static/images/icons/icon_3.png" draggable="true" ondragstart="drag(event)">
+                        <p>Joke API😂</p>
+                    </div>
+                </a>
+                <!-- END Joke API Icon -->
+
+                <!-- Welcome.txt Icon-->
+                <a href="{% url 'cookie_welcome' %}" class="grid-item app-image">
+                    <div class="icon-div">
+                        <img class="icon" src="/static/images/icons/icon_4.png" draggable="true" ondragstart="drag(event)">
+                        <p>Welcome.txt👋</p>
+                    </div>
+                </a>
+                <!-- END Welcome.txt Icon-->
+            </div>
+</div>
+
+{% endblock %}
+{% block foot %}{% endblock %}

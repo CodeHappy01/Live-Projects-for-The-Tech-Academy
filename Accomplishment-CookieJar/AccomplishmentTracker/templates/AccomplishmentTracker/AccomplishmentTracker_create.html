@@ -1,0 +1,17 @@
+{% extends "AccomplishmentTracker/AccomplishmentTracker_homeFS.html" %}
+
+{% block title %}CookieJar.exe{% endblock %}
+
+{% block additional_styles %}
+    background-image: url("/static/images/CookieJar_Create.png");
+{% endblock %}
+
+{% block content %}
+<h1>Write Accomplishment 📝</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Drop in Jar</button>
+    </form>
+<button><a href="{% url 'cookie_read' %}">Look in Jar</a></button>
+{% endblock %}

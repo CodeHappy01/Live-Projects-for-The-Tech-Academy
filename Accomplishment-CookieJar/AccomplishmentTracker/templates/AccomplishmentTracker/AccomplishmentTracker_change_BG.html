@@ -1,0 +1,36 @@
+{% extends "AccomplishmentTracker/AccomplishmentTracker_base.html" %}
+
+{% block title %}🎁🎄🎁{% endblock %}
+
+{% block additional_styles %}
+    background-image: url("/static/images/CookieJar_Christmas.png");
+{% endblock %}
+
+{% block nav %}
+{% endblock %}
+
+{% block music %}
+{% endblock %}
+
+{% block screen %}
+<!--<li><a href="{% url 'cookie_jar_home_fs' %}">Full Screen</a></li>-->
+
+<!-- Used to redirect to Base Template -->
+<li><a href="{% url 'cookie_jar_home' %}">Back</a></li>
+{% endblock %}
+
+<!-- Christmas Video -->
+{% block content %}
+<iframe width="400px" height="250px" src="https://www.youtube.com/embed/EoeONBEd15g?autoplay=1" title="santa's workshop
+🎅 a lofi christmas mix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+{% endblock %}
+
+{% block foot %} <div id="countdown">
+    <h2><b><u>Countdown until Christmas Day (UTC/GMT):</u></b></h2>
+    <div id="days"></div>
+    <div id="hours"></div>
+    <div id="minutes"></div>
+    <div id="seconds"></div>
+</div>
+{% endblock %}

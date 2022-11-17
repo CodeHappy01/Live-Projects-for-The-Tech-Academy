@@ -1,0 +1,17 @@
+{% extends "AccomplishmentTracker/AccomplishmentTracker_homeFS.html" %}
+
+{% block title %}Cookie🍪{% endblock %}
+
+{% block additional_styles %}
+    background-image: url("/static/images/CookieJar_Details.png");
+{% endblock %}
+
+{% block content %}
+<div class="CookieBG">
+    <h1>Cookie</h1>
+    <h3>{{ entry.Title }} - {{ entry.Date }}</h3>
+    <p class="CookieText">{{ entry.Accomplishment }}</p>
+    <button><a href="{% url 'cookie_update' entry.id %}">Update Accomplishment</a></button>
+    <button type="submit"><a href="{% url 'cookie_read' %}">Return to Jar</a></button>
+</div>
+{% endblock %}

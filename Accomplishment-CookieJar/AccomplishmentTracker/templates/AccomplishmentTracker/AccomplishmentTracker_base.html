@@ -1,0 +1,136 @@
+<!-- NOTE: all of my images were made through the site/app Canva. Most art in this is not of my own, rather assets put
+together in Canva to make my backgrounds, icons, templates etc... I am by no means an artist, -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static '/css/AccomplishmentTracker_layout.css' %}">
+    <script src="{% static '/js/AccomplishmentTracker.js' %}" defer></script>
+    <style>
+        body {
+            background-color: white;
+            /* This block allows me to change Background for each Template (time saver) */
+            {% block additional_styles %}
+            background-image: url("/static/images/CookieJar_Home.png");
+            {% endblock %}
+            background-size: contain;
+            background-attachment: scroll;
+            background-position: center;
+            position: relative;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            font-family: Arial;
+            color: white;
+            right: 0; /* This ensures there is no space between the edge of the video and the edge of the page */
+            bottom: 0; /* This ensures no space between the edge of the video and the bottom of the page */
+            transition: all 1s ease-in; /* transition for Change BG */
+            margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
+            opacity: 1; /* This and transition affect the page loading fade in effect */
+            transition: 3s opacity; /* This causes a 3 second fade in */
+            letter-spacing: .2vw; /* vw is a relative measurement, 1vw is equal to 1% of the viewport width */
+            font-size: 1vw;
+            overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
+            user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
+        }
+        /* Images for Change BG*/
+        body.alt {
+            background-image: url('/static/images/CookieJar_Building.png');
+        }
+
+
+        @media screen and (max-width: 1800px),screen and (max-height: 900px) {
+            /* Block allows Nav bar to only change postion based on scale for home screen */
+            {% block nav %}
+            .navbar {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                text-align: center;
+            }
+
+            li a {
+            margin: 0 16vh 0 16vh;
+            padding: .5vw 1vh;
+            font-size: 2vh;
+            {% endblock %}
+            }
+
+}
+    </style>
+</head>
+<body>
+
+    <!-- Navbar for site -->
+    <div class="container">
+        <ul class="navbar">
+            {% block screen %} <!-- Allows me to change button to FullScreen or Minimize and change the background button-->
+            <li><a href="{% url 'cookie_jar_home_fs' %}">Full Screen</a></li>
+            <li><a href="{% url 'cookie_change_bg' %}">🎁🎄🎁</a></li>
+            {% endblock %}
+        </ul>
+    </div>
+    <!-- End navbar -->
+
+    <!-- Music -->
+    <div id="music">
+        <!-- Block allows music only on home page -->
+        {% block music %}
+        <audio autoplay loop controls>
+            <source src="/static/music/Still-Awake.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        {% endblock %}
+    </div>
+    <!-- End Music -->
+
+
+    <!-- Block tags for page-specific content -->
+        <div class="content-container-container">
+            <div class="content-container">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+
+    <!-- Icons -->
+    {% block icons %}
+    {% endblock %}
+    <!-- Icons End -->
+
+
+
+    <!-- Templates (For change background button) -->
+    {% block templates %}
+    {% endblock %}
+    <!-- End Templates -->
+
+    <!-- Best Experience Message -->
+    <div id="recommend">
+        <p><u><b>For Best Experience:</b></u><br> Full-screen Browser Window or <b>[ F11 ]</b> on Keyboard
+            <!--(Mobile Users: Landscape (horizontal) mode)--></p>
+    </div>
+    <!-- Best Experience Message End -->
+
+    <!-- Secret... -->
+<!-- <div class="grid" onclick="drag1">
+        <button ondblclick="theSecret()" href="{% url 'cookie_welcome' %}" class="grid-item app-image">
+            <div class="icon-div">
+                <img class="icon" src="/static/images/icons/icon_1.png" draggable="true" ondragstart="drag(event)">
+            </div>
+        </button>
+    </div> -->
+    <!-- Secret End -->
+
+    <!-- Footer for site -->
+    <footer>
+        <!-- Block allows footer to be only visible on the base template, and invisible in Full Screen Mode  -->
+        <p>{% block foot %}Created by <p><a href="https://codehappy01.github.io/portfolio_site/portfolio.html" target="_blank">-Bradley
+        Robles-</a> | 2022{% endblock %}</p>
+    </footer>
+    <!-- End footer -->
+</body>
+</html>

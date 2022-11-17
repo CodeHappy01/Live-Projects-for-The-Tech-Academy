@@ -1,0 +1,475 @@
+
+/* Disables scrolling for base/home screen */
+html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* ===========================================
+                NAVBAR STYLES
+ =========================================== */
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
+    position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
+    top: 0; /* This ensures no space is displayed above the navbar */
+    width: 8.5%;
+    z-index: 1; /* This ensures other elements don't display over the navbar */
+    -webkit-animation: moveNav 5s; /* Safari 4.0 - 8.0 */
+    animation: moveNav 5s; /* This makes the moveNav animation last 5 seconds */
+}
+
+
+
+
+li a {
+    display: block;
+    padding: .75vw .2vh;
+    box-shadow: inset 0 0 0 0 white;
+    color: white;
+    text-decoration: none;
+    transition: color .3s ease-in-out, box-shadow .33s ease-in-out;
+    border: inset .5vh white;
+    margin-top: 0vh;
+    display: inline-block;
+}
+
+li a:hover {
+    box-shadow: inset 300px 0 0 0 white;
+    color: black;
+}
+
+ /* ===========================================
+             CENTER CONTAINER STYLES
+ =========================================== */
+
+.content-container-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+	position: relative;
+	width: 50vh;
+	height: 50vh;
+	border-radius: .1vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15vh;
+	margin-bottom: 10em;
+	padding: 3em 3em 3em 3em !important;
+	/*box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
+}
+
+.content-container {
+    text-align: center;
+    align-items: center;
+    }
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+    margin: 1vw;
+    font-size: 1vw;
+}
+
+/* ===========================================
+                ICON STYLES
+ =========================================== */
+
+.icon-div {
+  width: auto;
+  height: auto;
+  margin-top: 0;
+  top: 0;
+  top: 7vh;
+}
+
+.icon-div p {
+    display: none;
+
+}
+
+/* icon image size */
+.icon {
+    width: 19.5vh;
+    height: 11.2vh;
+}
+
+/* Icon grid div */
+.grid {
+      top: 7vh;
+      justify-content: left;
+      opacity: 1;
+      position: fixed;
+      height: auto;
+      border-radius: .1vh;
+      margin-left: 13vh;
+      padding-right: auto;
+}
+
+/* ===========================================
+            SCROLLBAR STYLES
+(link:https://stackoverflow.com/questions/48960404/how-to-change-overflow-y-scrollbar-styles)
+=========================================== */
+
+::-webkit-scrollbar {
+    width: 1.2vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 .06vw rgba(0,0,0,0.3);
+    -webkit-border-radius: 1vw;
+    border-radius: 1vw;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 1vw;
+    border-radius: 1vw;
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 .6vw rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* ===========================================
+              COOKIE.EXE STYLES
+=========================================== */
+
+form {
+    margin: auto;
+
+}
+
+textarea {
+    height: 10vw;
+    width: 22vw;
+}
+
+.CookieListHeader  { /*  */
+    border-collapse: collapse;
+    margin: 2.5vw 0;
+    min-width: 40vw;
+    position: sticky; /* Locks CookieListHeader */
+    top: 0;
+    width: 100%;
+}
+.CookieListContainer { /* Allows Scrolling for table (Link:https://natclark.com/tutorials/css-scrollable-table/)*/
+    height: 20vw;
+    width: 22vw;
+    overflow-y: scroll;
+}
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+td {
+    padding: 1.2vh 1.5vh;
+    background: rgb(172,136,104);
+    /* Gradient Colors for BG (link:https://cssgradient.io/) */
+    background: linear-gradient(90deg, rgba(172,136,104,0.5634628851540616) 0%, rgba(156,112,73,0.17690826330532217) 100%);
+
+}
+
+th {
+    padding: 1.2vh 1.5vh;
+    background: rgb(172,136,104);
+    background: linear-gradient(90deg, rgba(172,136,104,1) 0%, rgba(156,112,73,1) 100%);
+
+}
+
+td:hover {
+    background: rgb(36,0,0);
+    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(121,61,9,0.6699054621848739) 100%);
+}
+
+td a {
+    color: white;
+    text-shadow: .2vh .2vh #793d09;
+}
+
+table tbody tr.active-row {
+    font-weight: bold;
+    color: #805500;
+}
+
+.CookieText { /* Text box for details page */
+    overflow-y: scroll; /* Allow scrolling in text box when over-flown in it's height and width */
+    word-wrap: break-word; /* Allows words to go to next line while staying uniform */
+    height: 17.5vh;
+    width: 42.5vh;
+    margin: 0 50vw 0 50vw; /* Centers text box */
+    text-align: center;
+    text-align: left;
+}
+
+.Delete { /* Make delete button text a "scary" red giving expression of caution */
+    font-weight: bold;
+    color: red;
+}
+
+/* ===========================================
+             BEAUTIFUL SOUP STYLES
+ =========================================== */
+
+.bsDiv {
+    width: 62vh;
+    height: 58vh;
+    background: rgba(90, 90, 90 , 0.6);
+    border-radius: 25em;
+    margin: 10vh auto auto 2vh ;
+    padding: 10vh 1.5vw 0 1.5vw ;
+    font-size: 1.6vh;
+}
+
+.bsHeading {
+    color: beige;
+    font-family: "Lucida Handwriting", "Courier New", monospace;
+    text-shadow: rgb(172,136,104) -.2vh .1vh ;
+    font-weight: bold;
+
+}
+
+.bsQuote {
+    color: beige;
+    font-style: italic;
+    font-family: "Rockwell", "Courier New", monospace;
+}
+
+.bsDiv a {
+    color: white;
+    text-align: center;
+    text-shadow: none
+}
+
+.bsDiv p {
+    font-family: "Book Antiqua", "Courier New", monospace;
+}
+
+/* ===========================================
+                JOKE API STYLES
+ =========================================== */
+
+.apiDiv h1 {
+    color: black ;
+    text-decoration: underline;
+}
+
+.apiDiv h2 {
+    color: #6ba3e3 ;
+}
+
+.apiDiv p {
+    color: black ;
+}
+
+/* -- "at_read_joke_api" STYLES -- */
+
+.saveJokeForm input {
+    display: none;  /* IMPORTANT: Makes the inputs invisible on line 19 of "at_joke_api.html" */
+}
+
+.JokeListTitle {
+    color: black ;
+    text-decoration: underline;
+}
+
+.JokeListHeader  { /*  */
+    border-collapse: collapse;
+    margin: 2.5vw 0;
+    min-width: 40vw;
+    position: sticky; /* Locks CookieListHeader */
+    top: 0;
+    width: 100%;
+}
+.JokeListContainer { /* Allows Scrolling for table (Link:https://natclark.com/tutorials/css-scrollable-table/)*/
+    height: 15vw;
+    width: 40vw;
+    overflow-y: scroll;
+}
+.JokeListTable thead tr {
+    background-color: black;
+    color: black;
+    text-align: left;
+}
+
+.JokeListTable td {
+    padding: 1.2vh 1.5vh;
+    background: white;
+    color: black;
+}
+
+.JokeListTable th {
+    padding: 1.2vh 1.5vh;
+    background: black;
+    color: #6ba3e3
+
+}
+
+.JokeListTable td:hover {
+    background: grey;
+}
+
+.JokeListTable td a {
+    color: white;
+    text-shadow: .2vh .2vh #793d09;
+}
+
+.JokeListTable tbody tr.active-row {
+    font-weight: bold;
+    color: #805500;
+}
+
+ /* ===========================================
+                FOOTER STYLES
+ =========================================== */
+
+/* Keeps footer at bottom of page */
+footer {
+    position: fixed;
+    padding: 1%;
+    bottom: 0;
+}
+
+
+ /* ===========================================
+                MUSIC STYLES
+ =========================================== */
+
+#music {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25%;
+    z-index: 1;
+    display: inline-block;
+}
+
+#music audio {
+    float: right;
+}
+
+/* ===========================================
+          CHRISTMAS COUNTDOWN STYLES
+ =========================================== */
+
+#countdown {
+    top: 0;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    font-size: 1vh;
+    width: 20%;
+    text-shadow: 1px 1px 5px red;
+}
+
+ /* ===========================================
+           BEST EXPERIENCE MESSAGE STYLE
+ =========================================== */
+#recommend {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    bottom: 0%;
+    position: fixed;
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    border: solid .1vh white;
+    display: inline-block;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 1.8vh;
+    font-family: "rockwell";
+}
+
+ /* ===========================================
+           MEDIA QUERY'S STYLES
+ =========================================== */
+
+/* Changes icons to buttons that stays aligned at the top when screen reaches specific width/height. Also diplays
+ "For Best Experience:" Message */
+@media screen and (max-width: 1800px),screen and (max-height: 900px) {
+
+    .icon-div {
+        display: inline-block;
+        text-align: center;
+        height: 0;
+    }
+    .icon-div p {
+        display: inline-block;
+        padding: .75vw .2vh;
+        box-shadow: inset 0 0 0 0 white;
+        color: white;
+        text-decoration: none;
+        transition: color .3s ease-in-out, box-shadow .33s ease-in-out;
+        border: inset .5vh white;
+        margin-top: 0vh;
+
+    }
+
+    .icon-div p:hover {
+    box-shadow: inset 300px 0 0 0 white;
+    color: black;
+}
+
+   .icon {
+        display: none;
+    }
+
+    .grid {
+        margin-top: -4vh;
+        top: 0;
+        opacity: 1;
+        position: fixed;
+        height: 0;
+        border-radius: 0;
+        margin-left: 30%;
+        margin-right: 25%;
+        padding-right: 0;
+    }
+
+    #recommend {
+        visibility: visible;
+    }
+}
+
+/* Keeps Icons in both full screen and F11 Mode to stay in top left corner of the backgrounds "PC screen" */
+@media screen and (max-width: 1919px),screen and (max-height: 1079px) {
+    .grid {
+      top: 4vh;
+    }
+}
+
+/* Makes footer and audio icon disappear after specific width and height*/
+@media screen and (max-width: 1200px),screen and (max-height: 675px) {
+    footer {
+        display: none;
+    }
+
+    #music {
+        display: none;
+    }
+
+}
+
+
+

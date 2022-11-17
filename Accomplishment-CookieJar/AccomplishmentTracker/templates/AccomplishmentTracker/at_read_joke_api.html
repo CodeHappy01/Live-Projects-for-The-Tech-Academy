@@ -1,0 +1,28 @@
+{% extends "AccomplishmentTracker/AccomplishmentTracker_homeFS.html" %}
+
+{% block title %}Saved Jokes{% endblock %}
+
+{% block additional_styles %}
+    background-image: url("/static/images/CookieJar_Joke_API.png");
+{% endblock %}
+
+
+{% block content %}
+<!-- READ Saved Jokes -->
+<h1 class="JokeListTitle">Saved Jokes</h1>
+    <div class="JokeListContainer"> <!-- Class for Scrolling on table -->
+        <table class="JokeListTable">
+            <tr class="JokeListHeader"> <!-- Locks CookieListHeader -->
+                <th>Setup</a></th>
+                <th>Punchline</a></th>
+            </tr>
+            {% for e in entry %}
+            <tr>
+                <td>>{{ e.Setup }}</td>
+                <td>{{ e.Delivery }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+<button><a href="{% url 'cookie_joke_api' %}">Read New Jokes</a></button>
+{% endblock %}
