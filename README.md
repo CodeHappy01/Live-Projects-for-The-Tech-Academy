@@ -46,7 +46,7 @@ The goal of the project was to create an app within the Application9000 with a t
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="The-Site" width="960" height="540">
 
-With the ability to pick our own topic and work on out own seperate applications for the main site, this gave my team and I a chance to showcase are indivdual skills from the back-end to the front-end. 
+With the ability to pick our own topic and work on our own seperate applications for the main site, this gave my team and I a chance to showcase are indivdual skills from the back-end to the front-end. 
 
 The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The main pupose of my application is to allow people to keep track of their accomplishments to give them a way to boost there confidence whenever in need in the future. The idea of tracking accomplishments came from David Goggins [Cookie Jar theory](https://productiveclub.com/cookie-jar-method/#:~:text=The%20cookie%20jar%20method%20is%20a%20technique%20of,yourself%20of%20what%20you%20have%20achieved%20in%20life.)
 
@@ -55,7 +55,7 @@ Although, my site revolves around the Cookie Jar idea, it sorta accidently evolv
 (Drawing I made during brainstorming phase for my application topic)
 <img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540">
 
-I created a site that allows you to use a computer screen with in your own computer screen by clicking the "Full Screen" button from the main page which then lets you interact with three other apps. [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api), and the [Welcome.txt](). From the main screen I even added an extra [suprise](#christmas) that lets you access a alter demension if you will were you work in an office building that getting ready for Christmas time!
+I created a site that puts you in a room that allows you to interact with a computer screen within your computer screen. By clicking the "Full Screen" button from the main page it lets you use the four provided "apps" on the desktop screen. [CookieJar.exe](#cookiejarexecrud) (CRUD)[The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api), and the [Welcome.txt](). From the main screen I even added an extra [suprise](#christmas) that lets you access a alter demension if you will were you work in an office building that getting ready for Christmas time!
 
 
 <img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
