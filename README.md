@@ -51,20 +51,20 @@ The goal of the project was to create an app within The App Builder 9000 with a 
 
 With the ability to pick our own topic and work on our own seperate applications for the main site, this gave my team and I a chance to really showcase are skills from both the back-end to the front-end. 
 
-The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The main pupose of my application is to allow people to keep track of their accomplishments to give them a way to boost there confidence in the future, whenever in need. The idea of tracking accomplishments came from David Goggins [Cookie Jar theory](https://productiveclub.com/cookie-jar-method/#:~:text=The%20cookie%20jar%20method%20is%20a%20technique%20of,yourself%20of%20what%20you%20have%20achieved%20in%20life.)
+The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The main pupose of my application is to allow people to keep track of their accomplishments to give them a way to boost there confidence in the future, whenever in need. The idea of tracking accomplishments was inspired by David Goggins [Cookie Jar theory.](https://productiveclub.com/cookie-jar-method/#:~:text=The%20cookie%20jar%20method%20is%20a%20technique%20of,yourself%20of%20what%20you%20have%20achieved%20in%20life.)
 
 Although, from the very start, my site revolved around the Cookie Jar idea, it sorta just slowly evolved into something much more. From a simple idea of having just a Cookie Jar that maybe let you drop an "accomplishment cookie" in it by a simple button click...
 
 (Drawing I made during brainstorming phase for my application topic)
 <img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540">
 
-I was able to create a site that puts you in a room that allows you to interact with a computer screen within your computer screen! By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the desktop screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the main screen I even added a [Christmas](#christmas) suprise that lets you access an alter dimension, if you will, where you work in an office building preparing for Christmas time!
+I was able to create a web application that puts you in a cozy room that allows you to interact with a computer screen within your computer screen! By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the desktop screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the main screen I even decided to add a [Christmas](#christmas) button that navigates you to an parallel dimension of sorts, where you work in an office building preparing for Christmas time!
 
 
 <img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
 
 
-I made my background and styling come to life by utilizing the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright free assets of images both free or paid. I highly recommend it to anyone!
+How I made my background, icons and most of my styling really come to life was by utilizing the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright free assets of images both free or paid. I highly recommend it to anyone!
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
 
@@ -162,28 +162,12 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
 ## Update and Delete 
 
 <details>
-  <summary><a href="">[html]</a></summary>
+  <summary>Story 5: Edit and Delete Functions<a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_update.html">[Edit TPL]</a><a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_delete.html">[Delete TPL]</a></summary>
   <ol>
     <ul><br>
       <p>
 
-      </p>
-      <li> Model-    
-
-      </li>
-      <li> Model Form-
-
-      </li>
-      <li> View-
-
-      </li>
-    </ul>
-  </ol>
-</details>
-
-[Story 5: [Edit](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_update.html) and [Delete](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_delete.html) Functions]
-
-Allow for edits and delete functions to be done from the details page or from separate pages. Have confirmation before deleting. 
+  Allow for edits and delete functions to be done from the details page or from separate pages. Have confirmation before deleting. 
 
 Add an edit page to the templates (another pattern url) 
 
@@ -199,6 +183,19 @@ You are finished with the story when you have a functioning edit page for any it
 
 Optional Add-On: 
 -Use a modal and javascript for the delete confirmation message 
+      </p>
+      <li> Model-    
+
+      </li>
+      <li> Model Form-
+
+      </li>
+      <li> View-
+
+      </li>
+    </ul>
+  </ol>
+</details>
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,28 +206,11 @@ Optional Add-On:
 <img src="Accomplishment-CookieJar/images/ScreenShots/BeautifulSoup.PNG" alt="Web-Scraping" width="960" height="540">
 
 <details>
-  <summary><a href="">[TPL]</a></summary>
+  <summary>Story 6: Setup Beautiful Soup<a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html">[TPL]</a></summary>
   <ol>
     <ul><br>
       <p>
-
-      </p>
-      <li> Model-    
-
-      </li>
-      <li> Model Form-
-
-      </li>
-      <li> View-
-
-      </li>
-    </ul>
-  </ol>
-</details>
-
-[[Stories 6 & 7: Beautiful Soup]](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html) 
-
-- Story 6: Create a new template for displaying information sourced from another website. Use Beautiful Soup to data scrape the site and find the relevant information. 
+  Create a new template for displaying information sourced from another website. Use Beautiful Soup to data scrape the site and find the relevant information. 
 
 Create a new template for displaying the content 
 
@@ -241,13 +221,6 @@ Utilizing whatever options necessary, get the section of data you want to scrape
 Add comments to note which portions of the data you're trying to extract 
 
 Link the data scraping page to the app's home page 
-
-<details>
-  <summary><a href="">[TPL]</a></summary>
-  <ol>
-    <ul><br>
-      <p>
-
       </p>
       <li> Model-    
 
@@ -262,7 +235,12 @@ Link the data scraping page to the app's home page
   </ol>
 </details>
 
-- Story 7: Parse through the html returned and display the information you want to display. Make sure you are getting into the individual elements and stripping away any formatting you don't want. Add a link from your app's home page. 
+<details>
+  <summary>Story 7: Parse through HTML<a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html">[TPL]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
+  Parse through the html returned and display the information you want to display. Make sure you are getting into the individual elements and stripping away any formatting you don't want. Add a link from your app's home page. 
 
 Get elements out of your Beautiful Soup object, send just the values you want as relevant dictionary objects to the template (nested dictionaries are fine) 
 
@@ -273,23 +251,6 @@ Test to make sure everything works as expected, do error handling where necessar
 Add whatever styling is appropriate to your templates. 
 
 This is the last Beautiful Soup story. Make sure it has all the functionality that you want. 
-
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<br> 
-
-# Joke API: 
-
-<img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="API" width="960" height="540">
-
-[[Stories 6 & 7: API]]() 
-
-<details>
-  <summary><a href="">[TPL]</a></summary>
-  <ol>
-    <ul><br>
-      <p>
-
       </p>
       <li> Model-    
 
@@ -304,7 +265,20 @@ This is the last Beautiful Soup story. Make sure it has all the functionality th
   </ol>
 </details>
 
-Story 6: Connect to your chosen API and get the JSON response, add in a template for displaying the information. 
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br> 
+
+# Joke API: 
+
+<img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="API" width="960" height="540">
+
+<details>
+  <summary>Story 6: Connect to API<a href="">[TPL]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
+  Connect to your chosen API and get the JSON response, add in a template for displaying the information. 
 
 Create a new API template and render with a function 
 
@@ -316,12 +290,6 @@ Add comments of which elements from the JSON response you're looking to get the 
 
 Link the API request page to the app's home page. 
 
-<details>
-  <summary><a href="">[TPL]</a></summary>
-  <ol>
-    <ul><br>
-      <p>
-
       </p>
       <li> Model-    
 
@@ -336,7 +304,12 @@ Link the API request page to the app's home page.
   </ol>
 </details>
 
-Story 7: Parse through the JSON file returned and display the information you want to display. Make additional queries to the API as necessary. Add a link from your app's home page. 
+<details>
+  <summary>Story 7: Parse through JSON<a href="">[TPL]</a></summary>
+  <ol>
+    <ul><br>
+      <p>
+  Parse through the JSON file returned and display the information you want to display. Make additional queries to the API as necessary. Add a link from your app's home page. 
 
 Get elements out of your API JSON response, send just the values you want as relevant dictionary objects to the template (nested dictionaries are fine) 
 
@@ -349,13 +322,29 @@ Add whatever styling is appropriate to your templates.
 This is the last API story. Make sure it has all the functionality that you want. 
 
 You are finished with the story when you have information displaying from the API on your API page, and you've added all functionality you want to interact with the API. Make sure to test and debug before submitting. 
+      </p>
+      <li> Model-    
+
+      </li>
+      <li> Model Form-
+
+      </li>
+      <li> View-
+
+      </li>
+    </ul>
+  </ol>
+</details>
 
  
 <details>
-  <summary><a href="">[TPL]</a></summary>
+  <summary>Story 9: Save API or scraped results<a href="">[TPL]</a></summary>
   <ol>
     <ul><br>
       <p>
+  Allow the user to save "favorites" of an item either from the information detailed from the API or from Beautiful Soup. This could mean working with the existing model or creating a new one to pull the information from the response, create the appropriate object, and add it to the database. 
+
+You are finished with the story when you have the ability to save an item to the database with a few clicks from either your API page or your Data Scraping page. It is fine to have additional pages for the confirmation and display process. 
 
       </p>
       <li> Model-    
@@ -370,13 +359,6 @@ You are finished with the story when you have information displaying from the AP
     </ul>
   </ol>
 </details>
- 
-
-[Story 9: Save API or scraped results] 
-
-Allow the user to save "favorites" of an item either from the information detailed from the API or from Beautiful Soup. This could mean working with the existing model or creating a new one to pull the information from the response, create the appropriate object, and add it to the database. 
-
-You are finished with the story when you have the ability to save an item to the database with a few clicks from either your API page or your Data Scraping page. It is fine to have additional pages for the confirmation and display process. 
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
