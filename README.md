@@ -34,7 +34,6 @@
     <li><a href="#front-end-development">Front-End Development:</a></li>
     <li><a href="#skills-aquired">Skills Aquired:</a></li>
     <li><a href="#contact">Contact:</a></li>
-    <li><a href="#acknowledgments">Acknowledgments:</a></li>
   </ol>
 </details>
 
@@ -407,6 +406,10 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/bccf8525b
 
 
 <img src="Accomplishment-CookieJar/gifs/Browser-Window-Scaling.gif" alt="Logo" width="960" height="540">
+
+So media queries was defintely something that I had trouble working with. The big problem I ran into that I temporaly fixed was having my icons on the full screen overlap out of the background image whenever I scaled my browser window to be smaller. This was a problem because of how I setup my background for each template and icons where they are not able to stick to each other. One solution would to have put both the background image and icons into a div for each template it would have taken quite a bit of tweaking my code and my time was limited so I couldnt do that. So, what I ended up doing was making my media queries for the site make my icons along with other parts of the site center into the middle of the screen at a certain width and height.
+
+
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
