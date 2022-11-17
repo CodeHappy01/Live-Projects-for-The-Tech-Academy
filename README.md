@@ -74,6 +74,8 @@ I made my background and styling come to life by utilizing the site [Canva](http
 
 HTML | CSS | SQLITE | JS | PYTHON | DJANGO | PYCHARM | CANVA
 
+<br>
+
 # Welcome.txt
 
  <img src="Accomplishment-CookieJar/images/ScreenShots/Welcome.PNG" alt="Welcome" width="960" height="540">
