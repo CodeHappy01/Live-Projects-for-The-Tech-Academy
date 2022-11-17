@@ -52,7 +52,7 @@ I made my idea come to life by using the site [Canva](https://www.canva.com/), a
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
 
------NOTE: I do not plan on posting the entire project where it includes the Appbuilder9000 as it contains my peers projects, but you can find the code to my individual [application]() --
+-----NOTE: This repository does not contain the "Appbuilder9000" as it has my peers projects, but you do have access to the code to my individual [application]() --
 
 
 <br>
