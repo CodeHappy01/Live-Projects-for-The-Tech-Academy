@@ -401,7 +401,7 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/bccf8525b
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 <br>
-
+<!--
 ## Window Browswer Scaling - 
 
 
@@ -413,7 +413,8 @@ So media queries was defintely something that I had trouble working with. The bi
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<br>
+<br> 
+-->
 
 # Skills Acquired: 
 
