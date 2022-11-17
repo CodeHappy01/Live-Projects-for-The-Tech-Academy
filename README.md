@@ -95,7 +95,7 @@ HTML | CSS | SQLITE | JS | PYTHON | DJANGO | PYCHARM | CANVA
 
 ## Create 
 
-[Story 2: Create your model] 
+[[Story 2: Create your model]](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_create.html) 
 
 
 Create a model for the collection item you will be tracking and add the ability to create a new item. 
@@ -111,22 +111,7 @@ Add a views function that renders the create page and utilizes the model form to
 
 You are finished with the story when you have a functioning create page. This means the user can add to the database through your template rather than through admin. Make sure to test and debug before submitting. 
 
-```xml
-# Creating model for CookieJar.exe, title, date, text
-
-
-class CookieJar(models.Model):
-    Title = models.CharField(max_length=50)
-    Date = models.DateTimeField(auto_now_add=True)
-    Accomplishment = models.TextField(default='')
-
-    # Object manager
-    cookies = models.Manager()
-
-    # Displays Cookie Title
-    def __str__(self):
-        return self.Accomplishment
-```
+https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71f0661360b7deb38fe4b2f0ff7d3c127/Accomplishment-CookieJar/AccomplishmentTracker/models.py#L4-L17
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,7 +119,7 @@ class CookieJar(models.Model):
 
 ## Read 
 
-[Story 3: Display all items from database] 
+[[Story 3: Display all items from database]](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_read.html) 
 
 Display information from the database in a page. 
 
@@ -148,9 +133,11 @@ Add whatever styling is appropriate to your templates.
 
 You are finished with the story when you have a functioning page that lists the items in the database. Make sure to test and debug before submitting. 
 
+https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71f0661360b7deb38fe4b2f0ff7d3c127/Accomplishment-CookieJar/AccomplishmentTracker/views.py#L45-L50
+
  
 
-[Story 4: Details page] 
+[Story 4: Details page](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_details.html) 
 
  
 
@@ -172,7 +159,7 @@ Add whatever styling is appropriate to your templates.
 
 ## Update and Delete 
 
-[Story 5: Edit and Delete Functions] 
+[Story 5: [Edit](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_update.html) and [Delete](Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_delete.html) Functions]
 
 Allow for edits and delete functions to be done from the details page or from separate pages. Have confirmation before deleting. 
 
