@@ -44,15 +44,18 @@
 <br>
 
 ## About The Project
-During a two week springt at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented peers on a web Application called the "Applicationbuilder9000"! During 
+During a two week springt at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented peers on a web Application called the "Appbuilder9000"! We worked under Azure Devops environment being assigned 10 stories (2-9 being the main focus) to complete by the end of the sprint. 
 
-<img src="" alt="Logo" width="960" height="540">
+<img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="Logo" width="960" height="540">
 
-Although, we worked on the same site we had the chance to work on are own individual applications that connected to the main page. 
+Although, we worked on the same site we had the chance to work on are own individual applications that connected to the main page. This allowed my team and I to showcase are own skills while following the stories assigned to us along the way. 
 
 
-I made my idea come to life my using the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites, etc.
-<img src="" alt="Logo" width="960" height="540">
+
+
+I made my idea come to life by using the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites, etc. 
+
+<img src="Accomplishment-CookieJar/images/ScreenShots/Home.png" alt="Logo" width="960" height="540">
 
 <br>
 
@@ -63,7 +66,7 @@ HTML | CSS | JS | Python | Django
 
 # CRUD Functionality Stories
 
- <img src="" alt="Logo" width="960" height="540">
+ <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="Logo" width="960" height="540">
  
  <br>
 
@@ -205,7 +208,7 @@ This is the last Beautiful Soup story. Make sure it has all the functionality th
 
 ## API 
 
-<img src="" alt="Logo" width="960" height="540">
+<img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="Logo" width="960" height="540">
 
 [Stories 6 & 7: API] 
 
@@ -247,9 +250,9 @@ You are finished with the story when you have the ability to save an item to the
 
 <br>
 
-# Front End Development 
+# Front End Development
 
-<img src="" alt="Logo" width="960" height="540">
+<img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Logo" width="960" height="540">
 
 [Story 8: Front End Improvements] 
 
@@ -257,11 +260,18 @@ Go through your various templates and add improvements to the UI/UX. This may in
 
 You are finished with the story when you've added all functionality you want to for your UI/UX. Ideally, there should be some JavaScript in this. Make sure to test and debug before submitting. 
 
- 
-
 [Any other Front End work you’ve done that you would like to showcase] 
 
-<img src="" alt="Logo" width="960" height="540">
+Christmas - 
+
+<img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Logo" width="960" height="540">
+
+Window Browswer Scaling - 
+
+<img src="Accomplishment-CookieJar/gifs/Browser-Window-Scaling.gif" alt="Logo" width="960" height="540">
+
+
+
 
  <br>
 
