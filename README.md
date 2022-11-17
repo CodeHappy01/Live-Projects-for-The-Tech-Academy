@@ -36,11 +36,14 @@
 </details>
 
 ## About The Project
-During a two week springt at The Tech Academy I had the opportunity to work with a team of very talented peers on a web Application called the "Applicationbuilder9000"! During 
+During a two week springt at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented peers on a web Application called the "Applicationbuilder9000"! During 
 
 <img src="" alt="Logo" width="960" height="540">
 
 Although, we worked on the same site we had the chance to work on are own individual applications that connected to the main page. 
+
+
+I made my idea come to life my using the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites, etc.
 <img src="" alt="Logo" width="960" height="540">
 
 # Built With
