@@ -32,6 +32,10 @@
     <li><a href="#beautiful-soup">Beautiful Soup:</a></li>
     <li><a href="#joke-api">Joke API:</a></li>
     <li><a href="#front-end-development">Front-End Development:</a></li>
+    <ul>
+        <li><a href="#django-template-utilization">Django Template Utilization</a></li>
+        <li><a href="#christmas">Christmas</a></li>       
+      </ul>
     <li><a href="#skills-aquired">Skills Aquired:</a></li>
     <li><a href="#contact">Contact:</a></li>
   </ol>
@@ -55,13 +59,13 @@
 
 - With the ability to pick our own topic and work on our own seperate applications for the main site, this gave my team and I a chance to really showcase are skills from the front-end to the back-end. The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The main pupose of my application is to allow people to keep track of their accomplishments in a form of a cookie that you can grab from a cookie jar. It sort of gives people a way to reassure there future self what they are capable of, to help boost their confidence whenever they may feel discourage about something. The idea of tracking accomplishments was inspired by David Goggins [Cookie Jar theory.](https://productiveclub.com/cookie-jar-method/#:~:text=The%20cookie%20jar%20method%20is%20a%20technique%20of,yourself%20of%20what%20you%20have%20achieved%20in%20life.)
 
-- Although, from the very start, my site revolved around the Cookie Jar idea, it sorta just slowly evolved into something much more. From a simple idea of having just a Cookie Jar that let you drop an "accomplishment cookie" with a simple button click...
+- Although, from the very start, my site revolved around the Cookie Jar idea, it sorta just slowly evolved into something much more. From a simple idea of having just a Cookie Jar that let you drop an "Accomplishment Cookie" in...
 
 <br>
 
 <img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
 
-- to becoming a full styled-out web application that puts you in a cozy bedroom with a computer screen that you are able access and interact with! By clicking the "Full Screen" [navbar button](#music-navbar) from the main page it lets you use the four provided apps on the computer screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the home screen I also included both a [Christmas](#christmas) button that navigates you to an office building decorated with Christmas decorations and also included some relaxing [Lofi background music](#music-navbar).
+- to becoming a full styled-out web application that puts you in a cozy bedroom with a computer screen that is fully interactable! By clicking the "Full Screen" [navbar button](#music-navbar) from the main page it lets you use the four provided apps on the computer screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the home screen I also included both a [Christmas](#christmas) button that navigates you to an office building decorated with Christmas decorations and also included some relaxing [Lofi background music](#music-navbar).
 
 <br>
 
@@ -359,6 +363,8 @@ You are finished with the story when you have the ability to save an item to the
 
 # Front End Development:
 
+- 
+
 <details>
   <summary>Story 8: Front End Improvements<a href="">[CSS]</a></summary>
   <ol>
@@ -372,44 +378,9 @@ You are finished with the story when you have the ability to save an item to the
 
 <br>
 
-## Christmas
-
-<img src="Accomplishment-CookieJar/images/ScreenShots/ChristmasPNG.PNG" alt="Christmas" width="960" height="540">
-
-At the end of my stories I decided to have a bit of fun with the time I had left and made a Christmas template through Canva and back in Pycharm I decided to add a Christams video along with a count down till Christmas counter using Javascript: 
-
-<br>
-
-<details>
-  <summary>Counter</summary>
-  <img src="Accomplishment-CookieJar/images/ScreenShots/CountDown.PNG" alt="count-down" width="400" height="150">
-  <ol>
-    <ul>
-      <li> JS-
-https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/bccf8525bc902442ce7024f828d99df38b968608/Accomplishment-CookieJar/AccomplishmentTracker/static/js/AccomplishmentTracker.js#L13-L66
-      </li>
-    </ul>
-  </ol>
-</details>
-
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!--
-## Window Browswer Scaling - 
-
-
-<img src="Accomplishment-CookieJar/gifs/Browser-Window-Scaling.gif" alt="Logo" width="960" height="540">
-
-So media queries was defintely something that I had trouble working with. The big problem I ran into that I temporaly fixed was having my icons on the full screen overlap out of the background image whenever I scaled my browser window to be smaller. This was a problem because of how I setup my background for each template and icons where they are not able to stick to each other. One solution would to have put both the background image and icons into a div for each template it would have taken quite a bit of tweaking my code and my time was limited so I couldnt do that. So, what I ended up doing was making my media queries for the site make my icons along with other parts of the site center into the middle of the screen at a certain width and height.
-
-
-
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
-
 ## Django Template Utilization
 
-Something I took really took advantage when working with Django was utilizing the Template inheritance and Block tags as it allowed me to implement my major points of the site such as the backgrounds and icons that I made in Canva, as well as the background music, and navbar.
+- Something I took really took advantage when working with Django was utilizing the Template inheritance and Block tags as it allowed me to implement my major points of the site such as the backgrounds and icons that I made in Canva, as well as the background music, and navbar.
 
 <details>
   <summary>Backgrounds/Icons<a href="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images">[images]</a></summary>
@@ -450,6 +421,39 @@ Something I took really took advantage when working with Django was utilizing th
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Christmas
+
+<img src="Accomplishment-CookieJar/images/ScreenShots/ChristmasPNG.PNG" alt="Christmas" width="960" height="540">
+
+- At the end of my stories I decided to have a bit of fun with the time I had left and made a Christmas template through Canva and back in Pycharm I decided to add a Christams video along with a count down till Christmas counter using Javascript: 
+
+<details>
+  <summary>Counter</summary>
+  <img src="Accomplishment-CookieJar/images/ScreenShots/CountDown.PNG" alt="count-down" width="400" height="150">
+  <ol>
+    <ul>
+      <li> JS-
+https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/bccf8525bc902442ce7024f828d99df38b968608/Accomplishment-CookieJar/AccomplishmentTracker/static/js/AccomplishmentTracker.js#L13-L66
+      </li>
+    </ul>
+  </ol>
+</details>
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--
+## Window Browswer Scaling - 
+
+
+<img src="Accomplishment-CookieJar/gifs/Browser-Window-Scaling.gif" alt="Logo" width="960" height="540">
+
+So media queries was defintely something that I had trouble working with. The big problem I ran into that I temporaly fixed was having my icons on the full screen overlap out of the background image whenever I scaled my browser window to be smaller. This was a problem because of how I setup my background for each template and icons where they are not able to stick to each other. One solution would to have put both the background image and icons into a div for each template it would have taken quite a bit of tweaking my code and my time was limited so I couldnt do that. So, what I ended up doing was making my media queries for the site make my icons along with other parts of the site center into the middle of the screen at a certain width and height.
+
+
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
+
 # Skills Acquired: 
 
  
@@ -469,7 +473,8 @@ Something I took really took advantage when working with Django was utilizing th
 # Contact:
 
 - I had an amazing experience with this project and The Tech Academy and happy with what I was able to accomplish within the 2 week time frame. Although there is alot of things I could have done better I learned alot and will be sure to take these lessons into my future projects.
-- 
+
+
 -   I actually do plan on going back and using this as a framework for a bigger personal project that I wish to work on. If you would like details or are interested in possible collaberating on this project or even if you just want to get in contact to ask me questions, reach out to me at:
 
 Email: bradleyrobles88@gmail.com
