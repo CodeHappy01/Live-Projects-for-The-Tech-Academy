@@ -415,17 +415,32 @@ So media queries was defintely something that I had trouble working with. The bi
 <br> 
 -->
 
-## Backgrounds/Templates/Icons
+## Backgrounds/Icons
 
 The way I went about implenting my [backgrounds and icons](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images) into the site was by taking advantage of Django's Template inheritance and Block tags.
 
-<p>This black tag connects from the base template to the home FS template.</p>
+These block tags connect from the base template to the home FS template.
 
 https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/84d65e09f4700d50a994a0735769fee5f84d81bf/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_base.html
 
-<p>However,  from there, since the template of the Base [(cozy bedroom)](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images/CookieJar_Home.png) template to the Home Fullscreen [(computer screen)](Accomplishment-CookieJar/AccomplishmentTracker/static/images/CookieJar_FS.png) are different I began extending my block tags off the Home Fullcreen as most of my background images and icons are used in "FullScreen Mode". </p>
+https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/e7395643862fa47704a0dd3170d0859e5fbb3a4a/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_base.html#L99-L102
+
+However,  from there, since the template of the Base [(cozy bedroom)](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images/CookieJar_Home.png) template to the Home Fullscreen [(computer screen)](Accomplishment-CookieJar/AccomplishmentTracker/static/images/CookieJar_FS.png) are different I began extending my block tags off the Home Fullcreen as most of my background images and icons are used in "FullScreen Mode".
 
 https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/84d65e09f4700d50a994a0735769fee5f84d81bf/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_homeFS.html#L1-L8
+
+
+
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 
+<br>
+
+## Music/Navbar
+
+The same why I implemented my [backgrounds and icons](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images) by using Django's Template inheritance and block tags, I did with the music.
+
+https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/e7395643862fa47704a0dd3170d0859e5fbb3a4a/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_base.html#L78-L88
 
 
 
