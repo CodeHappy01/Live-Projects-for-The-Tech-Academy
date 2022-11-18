@@ -63,7 +63,7 @@ It became a very styled-out web application that puts you in a cozy bedroom with
 <img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
 
 
-How I made my background, icons and most of my styling really come to life was by utilizing the site [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright free assets of images both free or paid. I highly recommend it to anyone!
+How I made my background, icons and most of my styling really come to life was by utilizing [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright free assets of images both free or paid. I highly recommend it to anyone!
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
 
@@ -427,14 +427,14 @@ Something I took really took advantage when working with Django was utilizing th
         These block tags  connect from the base template to the home FS template.
       </p>
       <li>Background Block Tag:
-        https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/84d65e09f4700d50a994a0735769fee5f84d81bf/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_base.html#
+        https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/d85cb6fd099df70e7338886c9a0840d65a6e890c/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_base.html#L15-L18
       </li>
       <li>Icon Block Tag:
         https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/e7395643862fa47704a0dd3170d0859e5fbb3a4a/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_base.html#L99-L102
       </li>
-       <p>
+       
         However,  from there, since the template of the Base [(cozy bedroom)](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images/CookieJar_Home.png) template to the Home Fullscreen [(computer screen)](Accomplishment-CookieJar/AccomplishmentTracker/static/images/CookieJar_FS.png) are different I began extending my block tags off the Home Fullcreen as most of my background images and icons are used in "FullScreen Mode".
-      </p>
+      
       <li> Extends Tag:
         https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/84d65e09f4700d50a994a0735769fee5f84d81bf/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_homeFS.html#L1-L8
       </li>
@@ -442,21 +442,14 @@ Something I took really took advantage when working with Django was utilizing th
   </ol>
 </details>
 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
- 
-<br>
-
 <details>
-  <summary>Music/Navbar<a href="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images">[images]</a></summary>
+  <summary>Music/Navbar</summary>
   <ol>
     <ul><br>
-      <p>
-        The same why I implemented my [backgrounds and icons](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images) by using Django's Template inheritance and block tags, I did with the music.
-      </p>
-      <li>Music:
+      <li>Music Block Tag:
        https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/e7395643862fa47704a0dd3170d0859e5fbb3a4a/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_base.html#L78-L88
       </li>
-      <li>Navbar:
+      <li>Navbar Block Tag:
        https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/e7395643862fa47704a0dd3170d0859e5fbb3a4a/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_base.html#L67-L76
       </li>
     </ul>
