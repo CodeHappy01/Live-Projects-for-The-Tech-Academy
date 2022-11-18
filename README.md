@@ -57,7 +57,7 @@ Although, from the very start, my site revolved around the Cookie Jar idea, it s
 (Drawing I made during brainstorming phase for my application topic)
 <img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540">
 
-It became a very styled-out web application that puts you in a cozy room that allows you to interact with a computer screen within your computer screen! By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the desktop screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the main screen I also included  a [Christmas](#christmas) button that navigates you to an office building where you work in an office building preparing for Christmas time! and also I included some background music (Lofi).
+It became a very styled-out web application that puts you in a cozy bedroom with a computer screen that you are able access and interact with! By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the computer screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the home screen I also included both a [Christmas](#christmas) button that navigates you to an office building decorated with Christmas decorations and also included some relaxing Lofi background music.
 
 
 <img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
