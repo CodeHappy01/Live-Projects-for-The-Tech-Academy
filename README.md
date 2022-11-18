@@ -40,13 +40,17 @@
 <br>
 
 # About The Project:
+
+<img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="The-Site" width="960" height="540">
+
 During my time at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work along side a team of very talented Software Engineers on a web application called the App Builder 9000! The App Builder 9000 is an interactive website for managing one's collections of things related to various hobbies, as well as API and Data Scraped content for those hobbies.
 
 The goal of the project was to create an app with a topic of our own choice within The App Builder 9000 working with Python and Django utilizing their various features such as the Model, View, and Template [(MVT)](https://www.geeksforgeeks.org/django-project-mvt-structure/) layout. When building the app we needed to create databases to keep track of data, build a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duration of the sprint we worked under the [Azure Devops](https://azure.microsoft.com/en-us/products/devops/) environment following the [Agile/Scrum](https://www.visual-paradigm.com/scrum/what-is-agile-and-scrum/) methodogies and being assigned to finish a total of 10 stories (2-9 being the main focus) before the end of a sprint that lasted two weeks.
 
 | NOTE: This repository does NOT contain the "Appbuilder9000" as I do not have permission to share my peers projects but, you do have access to the code for my individual application [here](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker) |
 
-<img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="The-Site" width="960" height="540">
+(Drawing I made during brainstorming phase for my application topic)
+<img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540">
 
 With the ability to pick our own topic and work on our own seperate applications for the main site, this gave my team and I a chance to really showcase are skills from the front-end to the back-end. 
 
@@ -54,18 +58,13 @@ The Application that I decided to create was [The Accomplishment Cookie Jar](htt
 
 Although, from the very start, my site revolved around the Cookie Jar idea, it sorta just slowly evolved into something much more. From a simple idea of having just a Cookie Jar that let you drop an "accomplishment cookie" in it by a simple button click...
 
-(Drawing I made during brainstorming phase for my application topic)
-<img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540">
+<img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
 
 It became a very styled-out web application that puts you in a cozy bedroom with a computer screen that you are able access and interact with! By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the computer screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the home screen I also included both a [Christmas](#christmas) button that navigates you to an office building decorated with Christmas decorations and also included some relaxing Lofi background music.
 
-
-<img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
-
+<img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
 
 How I made my background, icons and most of my styling really come to life was by utilizing [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright free assets of images both free or paid. I highly recommend it to anyone!
-
-<img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
 
 <br>
 
@@ -79,8 +78,6 @@ How I made my background, icons and most of my styling really come to life was b
  <img src="Accomplishment-CookieJar/images/ScreenShots/Welcome.PNG" alt="Welcome" width="960" height="540">
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<br>
 
 # CookieJar.exe(CRUD):
 
@@ -111,8 +108,6 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
 </details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<br>
 
 ## Read 
 
@@ -155,8 +150,6 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<br> 
-
 ## Update and Delete 
 
 <details>
@@ -196,8 +189,6 @@ Optional Add-On:
 </details>
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<br>
 
 # Beautiful Soup: 
 
@@ -264,8 +255,6 @@ This is the last Beautiful Soup story. Make sure it has all the functionality th
 </details>
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<br> 
 
 # Joke API: 
 
@@ -360,8 +349,6 @@ You are finished with the story when you have the ability to save an item to the
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<br>
-
 # Front End Development:
 
 <details>
@@ -398,8 +385,7 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/bccf8525b
 </details>
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
- 
-<br>
+
 <!--
 ## Window Browswer Scaling - 
 
@@ -411,8 +397,6 @@ So media queries was defintely something that I had trouble working with. The bi
 
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<br> 
 -->
 
 ## Django Template Utilization:
@@ -457,8 +441,6 @@ Something I took really took advantage when working with Django was utilizing th
 </details>
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
- 
-<br>
 
 # Skills Acquired: 
 
@@ -475,8 +457,6 @@ Something I took really took advantage when working with Django was utilizing th
 - Obvious skills that I note from the project was working with the model, view, templates layout of django,.  
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<br>
 
 # Contact:
 
