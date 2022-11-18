@@ -43,28 +43,31 @@
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="The-Site" width="960" height="540">
 
-During my time at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work along side a team of very talented Software Engineers on a web application called the App Builder 9000! The App Builder 9000 is an interactive website for managing one's collections of things related to various hobbies, as well as API and Data Scraped content for those hobbies.
+- During my time at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work along side a team of very talented Software Engineers on a web application called the App Builder 9000! The App Builder 9000 is an interactive website for managing one's collections of things related to various hobbies, as well as API and Data Scraped content for those hobbies.
 
-The goal of the project was to create an app with a topic of our own choice within The App Builder 9000 working with Python and Django utilizing their various features such as the Model, View, and Template [(MVT)](https://www.geeksforgeeks.org/django-project-mvt-structure/) layout. When building the app we needed to create databases to keep track of data, build a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duration of the sprint we worked under the [Azure Devops](https://azure.microsoft.com/en-us/products/devops/) environment following the [Agile/Scrum](https://www.visual-paradigm.com/scrum/what-is-agile-and-scrum/) methodogies and being assigned to finish a total of 10 stories (2-9 being the main focus) before the end of a sprint that lasted two weeks.
+- The goal of the project was to create an app with a topic of our own choice within The App Builder 9000 working with Python and Django utilizing their various features such as the Model, View, and Template [(MVT)](https://www.geeksforgeeks.org/django-project-mvt-structure/) layout. When building the app we needed to create databases to keep track of data, build a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duration of the sprint we worked under the [Azure Devops](https://azure.microsoft.com/en-us/products/devops/) environment following the [Agile/Scrum](https://www.visual-paradigm.com/scrum/what-is-agile-and-scrum/) methodogies and being assigned to finish a total of 10 stories (2-9 being the main focus) before the end of a sprint that lasted two weeks.
 
-| NOTE: This repository does NOT contain the "Appbuilder9000" as I do not have permission to share my peers projects but, you do have access to the code for my individual application [here](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker) |
+| NOTE: This repository does NOT contain the "Appbuilder9000" as I do not have permission to share my peers projects but, you do have access to the code for my individual application that I worked on [here](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker) | 
 
-(Drawing I made during brainstorming phase for my application topic)
-<img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540">
+<br>
 
-With the ability to pick our own topic and work on our own seperate applications for the main site, this gave my team and I a chance to really showcase are skills from the front-end to the back-end. 
+<img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540"><p align="right">(Drawing I made during brainstorming phase for my application topic)</p>
 
-The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The main pupose of my application is to allow people to keep track of their accomplishments in a form of a cookie that you can grab from a cookie jar. It sort of gives people a way to reassure there future self what they are capable of, thus helping to boost their confidence whenever they may feel discourage about something. The idea of tracking accomplishments was inspired by David Goggins [Cookie Jar theory.](https://productiveclub.com/cookie-jar-method/#:~:text=The%20cookie%20jar%20method%20is%20a%20technique%20of,yourself%20of%20what%20you%20have%20achieved%20in%20life.)
+- With the ability to pick our own topic and work on our own seperate applications for the main site, this gave my team and I a chance to really showcase are skills from the front-end to the back-end. The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The main pupose of my application is to allow people to keep track of their accomplishments in a form of a cookie that you can grab from a cookie jar. It sort of gives people a way to reassure there future self what they are capable of, to help boost their confidence whenever they may feel discourage about something. The idea of tracking accomplishments was inspired by David Goggins [Cookie Jar theory.](https://productiveclub.com/cookie-jar-method/#:~:text=The%20cookie%20jar%20method%20is%20a%20technique%20of,yourself%20of%20what%20you%20have%20achieved%20in%20life.)
 
-Although, from the very start, my site revolved around the Cookie Jar idea, it sorta just slowly evolved into something much more. From a simple idea of having just a Cookie Jar that let you drop an "accomplishment cookie" in it by a simple button click...
+- Although, from the very start, my site revolved around the Cookie Jar idea, it sorta just slowly evolved into something much more. From a simple idea of having just a Cookie Jar that let you drop an "accomplishment cookie" with a simple button click...
+
+<br>
 
 <img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
 
-It became a very styled-out web application that puts you in a cozy bedroom with a computer screen that you are able access and interact with! By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the computer screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the home screen I also included both a [Christmas](#christmas) button that navigates you to an office building decorated with Christmas decorations and also included some relaxing Lofi background music.
+- to becoming a full styled-out web application that puts you in a cozy bedroom with a computer screen that you are able access and interact with! By clicking the "Full Screen" [navbar button](#music-navbar) from the main page it lets you use the four provided apps on the computer screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the home screen I also included both a [Christmas](#christmas) button that navigates you to an office building decorated with Christmas decorations and also included some relaxing [Lofi background music](#music-navbar).
+
+<br>
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
 
-How I made my background, icons and most of my styling really come to life was by utilizing [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright free assets of images both free or paid. I highly recommend it to anyone!
+- How I made my background, icons and most of my styling really come to life was by utilizing [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright free assets of images both free or paid. I highly recommend it to anyone!
 
 <br>
 
@@ -76,6 +79,8 @@ How I made my background, icons and most of my styling really come to life was b
 # Welcome.txt
 
  <img src="Accomplishment-CookieJar/images/ScreenShots/Welcome.PNG" alt="Welcome" width="960" height="540">
+ 
+ -Computer screen application that explains what the Cookie Jar method is and briefly explains what each other application does.
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,9 +88,12 @@ How I made my background, icons and most of my styling really come to life was b
 
  <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="CRUD" width="960" height="540">
  
+ - Computer screen application that allows you to track accomplishments with the CRUD functionality. It was created following stories 2 -5 during the sprint.
+ 
  <br>
 
 ## Create 
+
 
 <details>
   <summary>Story 2: Create your model <a href="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_create.html">[TPL]</a></summary>
@@ -399,7 +407,7 @@ So media queries was defintely something that I had trouble working with. The bi
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
 
-## Django Template Utilization:
+## Django Template Utilization
 
 Something I took really took advantage when working with Django was utilizing the Template inheritance and Block tags as it allowed me to implement my major points of the site such as the backgrounds and icons that I made in Canva, as well as the background music, and navbar.
 
@@ -427,7 +435,7 @@ Something I took really took advantage when working with Django was utilizing th
 </details>
 
 <details>
-  <summary>Music/Navbar</summary>
+  <summary id="music-navbar">Music/Navbar</summary>
   <ol>
     <ul><br>
       <li>Music Block Tag:
