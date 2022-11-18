@@ -42,7 +42,7 @@
 # About The Project:
 During my time at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work along side a team of very talented Software Engineers on a web application called the App Builder 9000! The App Builder 9000 is an interactive website for managing one's collections of things related to various hobbies, as well as API and Data Scraped content for those hobbies.
 
-The goal of the project was to create an app within The App Builder 9000 with a topic of our own choice working with Python and Django utilizing their various features such as the Model, View, and Template [(MVT)](https://www.geeksforgeeks.org/django-project-mvt-structure/) layout. When building the app we needed to create databases to keep track of data, build a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duration of the sprint we worked under the [Azure Devops](https://azure.microsoft.com/en-us/products/devops/) environment following the [Agile/Scrum](https://www.visual-paradigm.com/scrum/what-is-agile-and-scrum/) methodogies and being assigned to finish a total of 10 stories (2-9 being the main focus) before the end of a sprint that lasted two weeks.
+The goal of the project was to create an app with a topic of our own choice within The App Builder 9000 working with Python and Django utilizing their various features such as the Model, View, and Template [(MVT)](https://www.geeksforgeeks.org/django-project-mvt-structure/) layout. When building the app we needed to create databases to keep track of data, build a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duration of the sprint we worked under the [Azure Devops](https://azure.microsoft.com/en-us/products/devops/) environment following the [Agile/Scrum](https://www.visual-paradigm.com/scrum/what-is-agile-and-scrum/) methodogies and being assigned to finish a total of 10 stories (2-9 being the main focus) before the end of a sprint that lasted two weeks.
 
 | NOTE: This repository does NOT contain the "Appbuilder9000" as I do not have permission to share my peers projects but, you do have access to the code for my individual application [here](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker) |
 
@@ -415,6 +415,25 @@ So media queries was defintely something that I had trouble working with. The bi
 <br> 
 -->
 
+## Backgrounds/Templates/Icons
+
+The way I went about implenting my [backgrounds and icons](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images) into the site was by taking advantage of Django's Template inheritance and Block tags.
+
+<p>This black tag connects from the base template to the home FS template.</p>
+
+https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/84d65e09f4700d50a994a0735769fee5f84d81bf/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_base.html
+
+<p>However,  from there, since the template of the Base [(cozy bedroom)](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images/CookieJar_Home.png) template to the Home Fullscreen [(computer screen)](Accomplishment-CookieJar/AccomplishmentTracker/static/images/CookieJar_FS.png) are different I began extending my block tags off the Home Fullcreen as most of my background images and icons are used in "FullScreen Mode". </p>
+
+https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/84d65e09f4700d50a994a0735769fee5f84d81bf/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_homeFS.html#L1-L8
+
+
+
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 
+<br>
+
 # Skills Acquired: 
 
  
@@ -437,11 +456,11 @@ So media queries was defintely something that I had trouble working with. The bi
 
 - I had an amazing experience with this project and The Tech Academy and happy with what I was able to accomplish within the 2 week time frame. Although there is alot of things I could have done better I learned alot and will be sure to take these lessons into my future projects.
 - 
--   I actually do plan on going back and using this as a framework for a bigger personal project that I wish to work on. If you would like details or are interested in possible collaberating on this project or even if you just want to get in contact to ask me questions, reach out to me at my email or LinkedIn.
+-   I actually do plan on going back and using this as a framework for a bigger personal project that I wish to work on. If you would like details or are interested in possible collaberating on this project or even if you just want to get in contact to ask me questions, reach out to me at:
 
-- Email: bradleyrobles88@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/bradley-robles/)<div id="badges">
-  <a href="https://www.linkedin.com/in/bradley-robles/">
+Email: bradleyrobles88@gmail.com
+<br><br>
+<a href="https://www.linkedin.com/in/bradley-robles/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 
