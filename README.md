@@ -40,24 +40,24 @@
 <br>
 
 # About The Project:
-During a two week sprint at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work with a team of very talented Software Engineers on a web Application called the App Builder 9000! The App Builder 9000 is an interactive website for managing one's collections of things related to various hobbies, as well as API and Data Scraped content for those hobbies.
+During my time at [The Tech Academy](https://www.learncodinganywhere.com/) I had the opportunity to work along side a team of very talented Software Engineers on a web application called the App Builder 9000! The App Builder 9000 is an interactive website for managing one's collections of things related to various hobbies, as well as API and Data Scraped content for those hobbies.
 
-The goal of the project was to create an app within The App Builder 9000 with a topic of our own choice working with Python and Django utilizing their various features such as the Model, View, Template [(MVT)](https://www.geeksforgeeks.org/django-project-mvt-structure/). When building the app we needed to create databases to keep track of data, build a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duration of the sprint we worked under the [Azure Devops](https://azure.microsoft.com/en-us/products/devops/) environment following the [Agile/Scrum](https://www.visual-paradigm.com/scrum/what-is-agile-and-scrum/) methodogies and being assigned to finish a total of 10 stories (2-9 being the main focus) before the end of the two week sprint.
+The goal of the project was to create an app within The App Builder 9000 with a topic of our own choice working with Python and Django utilizing their various features such as the Model, View, Template [(MVT)](https://www.geeksforgeeks.org/django-project-mvt-structure/). When building the app we needed to create databases to keep track of data, build a Create, Read, Update, Delete [(CRUD)](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/) functionality, have the app interact with APIs to retrieve data, use data scraping to collect and aggrigate data, and more! For the duration of the sprint we worked under the [Azure Devops](https://azure.microsoft.com/en-us/products/devops/) environment following the [Agile/Scrum](https://www.visual-paradigm.com/scrum/what-is-agile-and-scrum/) methodogies and being assigned to finish a total of 10 stories (2-9 being the main focus) before the end of a sprint that lasted two weeks.
 
 | NOTE: This repository does NOT contain the "Appbuilder9000" as I do not have permission to share my peers projects but, you do have access to the code for my individual application [here](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker) |
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/AB9000.png" alt="The-Site" width="960" height="540">
 
-With the ability to pick our own topic and work on our own seperate applications for the main site, this gave my team and I a chance to really showcase are skills from both the back-end to the front-end. 
+With the ability to pick our own topic and work on our own seperate applications for the main site, this gave my team and I a chance to really showcase are skills from the front-end to the back-end. 
 
-The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The main pupose of my application is to allow people to keep track of their accomplishments to give them a way to boost there confidence in the future, whenever in need. The idea of tracking accomplishments was inspired by David Goggins [Cookie Jar theory.](https://productiveclub.com/cookie-jar-method/#:~:text=The%20cookie%20jar%20method%20is%20a%20technique%20of,yourself%20of%20what%20you%20have%20achieved%20in%20life.)
+The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The main pupose of my application is to allow people to keep track of their accomplishments in a form of a cookie that you can grab from a cookie jar. It sort of gives people a way to reassure there future self what they are capable of, thus helping to boost their confidence whenever they may feel discourage about something. The idea of tracking accomplishments was inspired by David Goggins [Cookie Jar theory.](https://productiveclub.com/cookie-jar-method/#:~:text=The%20cookie%20jar%20method%20is%20a%20technique%20of,yourself%20of%20what%20you%20have%20achieved%20in%20life.)
 
-Although, from the very start, my site revolved around the Cookie Jar idea, it sorta just slowly evolved into something much more. From a simple idea of having just a Cookie Jar that maybe let you drop an "accomplishment cookie" in it by a simple button click...
+Although, from the very start, my site revolved around the Cookie Jar idea, it sorta just slowly evolved into something much more. From a simple idea of having just a Cookie Jar that let you drop an "accomplishment cookie" in it by a simple button click...
 
 (Drawing I made during brainstorming phase for my application topic)
 <img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540">
 
-I was able to create a web application that puts you in a cozy room that allows you to interact with a computer screen within your computer screen! By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the desktop screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the main screen I even decided to add a [Christmas](#christmas) button that navigates you to an parallel dimension of sorts, where you work in an office building preparing for Christmas time!
+It became a very styled-out web application that puts you in a cozy room that allows you to interact with a computer screen within your computer screen! By clicking the "Full Screen" button from the main page it lets you use the four provided apps on the desktop screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (briefly explains what each app does). From the main screen I also included  a [Christmas](#christmas) button that navigates you to an office building where you work in an office building preparing for Christmas time! and also I included some background music (Lofi).
 
 
 <img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
@@ -70,8 +70,7 @@ How I made my background, icons and most of my styling really come to life was b
 <br>
 
 ## Built With
-
-HTML | CSS | SQLITE | JS | PYTHON | DJANGO | PYCHARM | CANVA
+<img src="https://user-images.githubusercontent.com/26016505/202602854-4df90c97-77f6-4c23-bcea-6d0d83da4002.png" alt="Pycharm" width="50" height="50"><img src="https://user-images.githubusercontent.com/26016505/202603413-b31355c4-a3b1-4a1d-8457-74e32108b8bb.png" alt="Canva" width="50" height="50"><img src="https://skills.thijs.gg/icons?i=js,html,css,sqlite,django,py,pycharm" alt="Icons">
 
 <br>
 
@@ -441,7 +440,10 @@ So media queries was defintely something that I had trouble working with. The bi
 -   I actually do plan on going back and using this as a framework for a bigger personal project that I wish to work on. If you would like details or are interested in possible collaberating on this project or even if you just want to get in contact to ask me questions, reach out to me at my email or LinkedIn.
 
 - Email: bradleyrobles88@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/bradley-robles/)
+- [LinkedIn](https://www.linkedin.com/in/bradley-robles/)<div id="badges">
+  <a href="https://www.linkedin.com/in/bradley-robles/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
