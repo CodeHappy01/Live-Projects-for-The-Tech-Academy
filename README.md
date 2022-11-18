@@ -380,7 +380,7 @@ You are finished with the story when you have the ability to save an item to the
 
 ## Django Template Utilization
 
-- Something I took really took advantage when working with Django was utilizing the Template inheritance and Block tags as it allowed me to implement my major points of the site such as the backgrounds and icons that I made in Canva, as well as the background music, and navbar.
+- Something I took really took advantage of when working with Django was utilizing the template inheritance and block tags as it allowed me to implement many major points through out the site such as the backgrounds and icons that I made in Canva, as well as the background music, and navbar.
 
 <details>
   <summary>Backgrounds/Icons<a href="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images">[images]</a></summary>
