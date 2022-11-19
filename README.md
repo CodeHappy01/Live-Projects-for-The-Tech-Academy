@@ -57,7 +57,7 @@
 
 <br>
 
-<img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540"><p align="right">Original application layout I had in mind that I drew at start of Sprint before going a slightly different route)</p>
+<img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540"><p align="right">(Original application layout I had in mind that I drew at start of Sprint before going a slightly different route)</p>
 
 - Although, from the very start, my site revolved around the Cookie Jar idea, it sorta just slowly evolved into something much more. From a simple idea of having just a Cookie Jar that let you drop an "Accomplishment Cookie" in...
 
