@@ -71,7 +71,7 @@
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
 
-- How I made my background, icons and most of my styling really come to life was by utilizing [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright assets. I highly recommend it to anyone, beginner to advanced, that is into styling and designing!
+- How I made my backgrounds, icons and most of my styling was through [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright free assets. I highly recommend it to anyone that is into styling and designing, whether beginner or advanced, it's a very easy to use useful styling tool!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
