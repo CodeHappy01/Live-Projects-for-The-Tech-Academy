@@ -165,6 +165,8 @@ I added an edit and delete function that dispays a confirmation before deleting 
 
 - The Beautiful Soup is an application you can access on the full screen that displays scraped data from a web page that explains more about cookie jar theory.
 
+<br>
+
 <details>
   <summary>Story 6: Setup Beautiful Soup <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html">[TPL]</a></summary>
   <ol>
@@ -194,6 +196,7 @@ Parse through the html, returned and displayed the information from scraping pag
 - The Joke API is an application you can access on the full screen that allows you to read randomly generated jokes and save the jokes to read later.
 
 <br>
+
 <details>
   <summary>Story 6: Connect to API <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/at_joke_api.html">[TPL]</a></summary>
   <ol>
@@ -250,6 +253,8 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399
 
 - The Front End is where I really found my enjoyment using things like Canva, Django Templates, CSS, and Javascript to help piece everything together. From creating backgrounds of a cozy bed room that you can access a computer with applications that open up into windows to a chearful office building background decorated with Christmas decorations and that has countdown to Christmas Day!
 
+<br>
+
 <details>
   <summary>Story 8: Front End Improvements</summary>
   <ol>
@@ -266,6 +271,8 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399
 ## Django Template Utilization
 
 - Something I took really took advantage of when working with Django was utilizing the template inheritance and block tags as it allowed me to implement many major points through out the site such as the backgrounds and icons that I made in Canva, as well as the background music, and navbar.
+
+<br>
 
 <details>
   <summary>Backgrounds/Icons<a href="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker/static/images">[images]</a></summary>
