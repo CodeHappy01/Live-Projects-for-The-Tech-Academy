@@ -251,7 +251,7 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399
 
 # Front End Development:
 
-- The Front End is where I really found my enjoyment using things like Canva, Django Templates, CSS, and Javascript to help piece everything together. From creating backgrounds of a cozy bed room that you can access a computer with applications that open up into windows to a chearful office building background decorated with Christmas decorations and that has countdown to Christmas Day!
+- The Front End is where I really found my enjoyment using things like Canva, Django Templates, CSS, and Javascript to help piece everything together. From creating backgrounds of a cozy bed room that you can access a computer with applications that open up into windows to a chearful office building background decorated with Christmas decorations that includes a countdown timer to Christmas Day!
 
 <br>
 
