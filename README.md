@@ -36,7 +36,7 @@
         <li><a href="#django-template-utilization">Django Template Utilization</a></li>
         <li><a href="#christmas">Christmas</a></li>       
       </ul>
-    <li><a href="#skills-aquired">Skills Aquired:</a></li>
+    <li><a href="#skills-acquired">Skills Acquired:</a></li>
     <li><a href="#contact">Contact:</a></li>
   </ol>
 </details>
