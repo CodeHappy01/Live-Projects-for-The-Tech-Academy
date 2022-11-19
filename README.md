@@ -348,10 +348,7 @@ So media queries was defintely something that I had trouble working with. The bi
 
 # Contact:
 
-- I had an amazing experience with this project and The Tech Academy and happy with what I was able to accomplish within the 2 week time frame. Although there is alot of things I could have done better I learned alot and will be sure to take these lessons into my future projects.
-
-
--   I actually do plan on going back and using this as a framework for a bigger personal project that I wish to work on. If you would like details or are interested in possible collaberating on this project or even if you just want to get in contact to ask me questions, reach out to me at:
+- I had an amazing experience with this project and happy with what I was able to accomplish within the 2 week time frame. Although, there is alot of things I believe I could have done better, I'm happy with the result. Although, I actually do plan on going back and using this as a framework for a bigger personal project that I wish to work on. If you would like details on this and interested in possibly collaberating or even if you just want to get in contact to ask me questions, reach out to me at:
 
 Email: bradleyrobles88@gmail.com
 <br><br>
