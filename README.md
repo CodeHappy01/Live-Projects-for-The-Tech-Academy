@@ -55,7 +55,7 @@
 
 <br>
 
-<img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540"><p align="right">(Drawing I made  of my the original idea of my application layout before I went a sligtly different route)</p>
+<img src="Accomplishment-CookieJar/images/ScreenShots/CookieJarDrawing.jpg" alt="Front-End" width="960" height="540"><p align="right">(A drawing I made  of the orginal application layout idea I had in mind before I went a sligtly different route)</p>
 
 - With the ability to pick our own topic and work on our own seperate applications for the main site, this gave my team and I a chance to really showcase are skills from the front-end to the back-end. The Application that I decided to create was [The Accomplishment Cookie Jar](https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/tree/main/Accomplishment-CookieJar/AccomplishmentTracker). The main pupose of my application is to allow people to keep track of their accomplishments in a form of a cookie that you can grab from a cookie jar. It sort of gives people a way to reassure there future self what they are capable of, to help boost their confidence whenever they may feel discourage about something. The idea of tracking accomplishments was inspired by David Goggins [Cookie Jar theory.](https://productiveclub.com/cookie-jar-method/#:~:text=The%20cookie%20jar%20method%20is%20a%20technique%20of,yourself%20of%20what%20you%20have%20achieved%20in%20life.)
 
