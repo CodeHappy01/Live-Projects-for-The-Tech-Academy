@@ -192,7 +192,7 @@ Parse through the html, returned and displayed the information from scraping pag
 <img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="API" width="960" height="540">
 - The Joke API is an application you can access on the full screen that allows you to read randomly generated jokes and save the jokes to read later.
 <details>
-  <summary>Story 6: Connect to API <a href="">[TPL]</a></summary>
+  <summary>Story 6: Connect to API <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/at_joke_api.html">[TPL]</a></summary>
   <ol>
     <ul><br>
 Connected my chosen <a href="https://jokeapi.dev/">Joke API<a>, read the API documentation, created a new API template rendered with a function, connected to the API and write a basic JSON response (either to a txt file or the terminal).
@@ -202,7 +202,7 @@ Connected my chosen <a href="https://jokeapi.dev/">Joke API<a>, read the API doc
 </details>
 
 <details>
-  <summary>Story 7: Parse through JSON <a href="">[TPL]</a></summary>
+  <summary>Story 7: Parse through JSON <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/at_joke_api.html">[TPL]</a></summary>
   <ol>
     <ul><br>
 Parse through the JSON file returned and display the information you want to display. Add a link from your app's home page. 
@@ -219,7 +219,7 @@ Test to make sure all the options work as expected, do error handling where nece
 
  
 <details>
-  <summary>Story 9: Save API or scraped results <a href="">[Joke API TPL SAVE]</a> <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/at_save_joke_api.html">[Joke API TPL READ]</a></summary>
+  <summary>Story 9: Save/Read API or scraped results <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/at_save_joke_api.html">[SAVE API TPL]</a> <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/at_save_joke_api.html">[READ API TPL]</a></summary>
   <ol>
     <ul><br>
       <p>
