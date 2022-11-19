@@ -119,8 +119,6 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
   </ol>
 </details>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Read 
 
 <details>
@@ -133,6 +131,8 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
   </ol>
 </details>
 
+<br>
+
 <details>
   <summary>Story 4: Details page <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_details.html">[TPL]</a></summary>
   <ol>
@@ -143,7 +143,7 @@ Created a details page that will show the details of any single item from within
   </ol>
 </details>
 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
 
 ## Update and Delete 
 
