@@ -163,7 +163,7 @@ I added an edit and delete function that dispays a confirmation before deleting 
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/BeautifulSoup.PNG" alt="Web-Scraping" width="960" height="540">
 
-- The Beautiful Soup is an application you can access on the full screen that displays scraped data from a web page that explains what the cookie jar theory is.
+- The Beautiful Soup is an application you can access on the full screen that displays scraped data from a web page that explains more about cookie jar theory.
 
 <details>
   <summary>Story 6: Setup Beautiful Soup <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html">[TPL]</a></summary>
