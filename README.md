@@ -73,7 +73,7 @@
 
 - How I made my backgrounds, icons and most of my styling was through [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright free assets. I highly recommend it to anyone that is into styling and designing, whether beginner or advanced, it's a very easy to use useful styling tool!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
 
 ## Built With
 <img src="https://user-images.githubusercontent.com/26016505/202602854-4df90c97-77f6-4c23-bcea-6d0d83da4002.png" alt="Pycharm" width="50" height="50"><img src="https://user-images.githubusercontent.com/26016505/202603413-b31355c4-a3b1-4a1d-8457-74e32108b8bb.png" alt="Canva" width="50" height="50"><img src="https://skills.thijs.gg/icons?i=js,html,css,sqlite,django,py,pycharm" alt="Icons">
