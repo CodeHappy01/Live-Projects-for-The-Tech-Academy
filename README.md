@@ -65,7 +65,7 @@
 
 <img src="Accomplishment-CookieJar/gifs/Full-Site.gif" alt="Front-End" width="960" height="540">
 
-- to becoming a full styled-out web application that puts you in a cozy bedroom with a computer screen that is fully interactable! By clicking the "Full Screen" [navbar button](#music-navbar) from the main page it lets you use the four provided apps on the computer screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (text explaining what each app does). From the home screen I also included both a [Christmas](#christmas) button that navigates you to an office building decorated with Christmas decorations and also included some relaxing [Lofi background music](#music-navbar).
+- to becoming a beautifully styled-out web application that puts you in a cozy bedroom with a computer screen that is fully interactable! By clicking the "Full Screen" [navbar button](#music-navbar) from the main page it lets you use the four provided apps on the computer screen. The [CookieJar.exe](#cookiejarexecrud) (CRUD), [The Beautiful Soup](#beautiful-soup) (data scraped webpage), [Joke API](#joke-api) (API), and the [Welcome.txt](#welcometxt) (text explaining what each app does). From the home screen I also included both a [Christmas](#christmas) button that navigates you to an office building decorated with Christmas decorations and also included some relaxing [Lofi background music](#music-navbar).
 
 <br>
 
