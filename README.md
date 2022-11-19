@@ -106,7 +106,7 @@
   <ol>
     <ul>
       <p><br>
-  I create a model for tracking Accomplishments with an objects manager for accessing the database, created a model form that will include any inputs the user needs to make, add a views function that renders the an html create page and utilizes the model form to save the collection item to the database.
+For this story I created a model for tracking Accomplishments with an objects manager for accessing the database, created a model form that will include any inputs the user needs to make, added a views function that renders the an html create page and utilizes the model form to save the collection items to the database.
       </p>
       <li> Model-    
 https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71f0661360b7deb38fe4b2f0ff7d3c127/Accomplishment-CookieJar/AccomplishmentTracker/models.py#L4-L17
@@ -127,7 +127,7 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
   <summary>Story 3: Display all items from database <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_read.html">[TPL]</a></summary>
   <ol>
     <br>
-   * Displayed information from the database in a page by creating a new HTML page, linked it from your home page. Add in a function that gets all the items from the database and sends them to the template. Display a list of items from the database, with some of the fields for that item displayed with labels/headers. Add whatever styling is appropriate to your templates. 
+ This story I added in a function that gets all the items from the database and created a new HTML pages for the data to be sent to and displayed.
     <ul>
     </ul>
   </ol>
@@ -139,7 +139,7 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
   <summary>Story 4: Details page <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_details.html">[TPL]</a></summary>
   <ol>
     <ul><br>
-Created a details page that will show the details of any single item from within the database, as selected by the user, link this to the base page for each item. Add a details template to the template folder, register the url pattern. Create a views function that will find a single item from the database and send it to the template. Add in a link for each item on the display all items page that will direct to the details page for that item. Display all the details of the item on the details page. 
+Created a details page that will show the details of any single item from within the database, as selected by the user. Link this to the base page for each item. Added a details template to the template folder, registered the url pattern. Create a views function that will find a single item from the database and send it to the template. Add in a link for each item on the display all items page that will direct to the details page for that item. Display all the details of the item on the details page. 
       <br>
     </ul>
   </ol>
@@ -173,7 +173,7 @@ I added an edit and delete function that dispays a confirmation before deleting 
   <summary>Story 6: Setup Beautiful Soup <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html">[TPL]</a></summary>
   <ol>
     <ul><br>
-  I create a new template for displaying information sourced from another website that explains what the Cookie Jar theory is, used <a href="https://www.tutorialspoint.com/beautiful_soup/beautiful_soup_quick_guide.htm">Beautiful Soup</a> to data scrape the site for qoutes about the Cookie Jar theory, create a new template for displaying the content and linked the data <a href="https://productiveclub.com/cookie-jar-method/#How_to_apply_the_cookie_jar_method">scraping page</a> to the app's home page 
+I create a new template for displaying information sourced from another website that explains what the Cookie Jar theory is, used <a href="https://www.tutorialspoint.com/beautiful_soup/beautiful_soup_quick_guide.htm">Beautiful Soup</a> to data scrape the site for qoutes about the Cookie Jar theory, create a new template for displaying the content and linked the data <a href="https://productiveclub.com/cookie-jar-method/#How_to_apply_the_cookie_jar_method">scraping page</a> to the app's home page 
       <br>
     </ul>
   </ol>
@@ -183,7 +183,7 @@ I added an edit and delete function that dispays a confirmation before deleting 
   <summary>Story 7: Parse through HTML <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html">[TPL]</a></summary>
   <ol>
     <ul><br>
-Parse through the html, returned and displayed the information from scraping page, made sure to get into the individual elements and stripping away any formatting I didn't want, got elements out of the Beautiful Soup object, sent just the values I wanted as relevant dictionary objects to the template, display all objects within the data scrape template.
+For this story I parsed through the html, returned and displayed the information from scraping page. I did this by getting elements out of the Beautiful Soup object, sent just the values I wanted as relevant dictionary objects to the template.
       <br>
     </ul>
   </ol>
@@ -262,7 +262,7 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399
   <ol>
     <ul><br>
       <p>
-  I went back to my templates/CSS/JS and added improvements to the UI/UX.
+  I went back to my templates/CSS/JS and added improvements to the UI/UX in several areas throughout the application.
       </p>
     </ul>
   </ol>
@@ -281,7 +281,7 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399
   <ol>
     <ul><br>
       <p>
-        These block tags  connect from the base template to the home FS template.
+        These block tags connect from the base template to the home FS template.
       </p>
       <li>Background Block Tag:
         https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/d85cb6fd099df70e7338886c9a0840d65a6e890c/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_base.html#L15-L18
