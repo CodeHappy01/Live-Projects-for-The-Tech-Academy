@@ -92,7 +92,7 @@
 
  <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="CRUD" width="960" height="540">
  
- - The CookieJar.exe is an application you can access on the full screen that allows you to CREATE accomplishments, dropping them into the cookie jar that turns them into a cookie to READ, UPDATE and DELETE. It was created following stories 2 -5.
+ - The CookieJar.exe is an application you can access on the full screen that allows you to CREATE accomplishments, dropping them into the cookie jar that turns them into a cookie to READ, UPDATE and DELETE.
  
  <br>
 
@@ -190,7 +190,10 @@ Parse through the html, returned and displayed the information from scraping pag
 # Joke API: 
 
 <img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="API" width="960" height="540">
+
 - The Joke API is an application you can access on the full screen that allows you to read randomly generated jokes and save the jokes to read later.
+
+<br>
 <details>
   <summary>Story 6: Connect to API <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/at_joke_api.html">[TPL]</a></summary>
   <ol>
