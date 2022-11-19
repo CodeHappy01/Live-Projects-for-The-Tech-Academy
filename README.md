@@ -205,13 +205,7 @@ Connected my chosen <a href="https://jokeapi.dev/">Joke API<a>, read the API doc
   <summary>Story 7: Parse through JSON <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/at_joke_api.html">[TPL]</a></summary>
   <ol>
     <ul><br>
-Parse through the JSON file returned and display the information you want to display. Add a link from your app's home page. 
-
-Get elements out of your API JSON response, send just the values you want as relevant dictionary objects to the template (nested dictionaries are fine) 
-
-Display all objects either in the original API service page or in a new results page. 
-
-Test to make sure all the options work as expected, do error handling where necessary 
+Parse through the JSON file and returned jokes from Joke API by getting elements out of your API JSON response, sent my jokes to dictionary objects to the template.
     <br>
     </ul>
   </ol>
