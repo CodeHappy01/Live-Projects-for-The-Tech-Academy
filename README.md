@@ -92,7 +92,7 @@
 
  <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="CRUD" width="960" height="540">
  
- - Computer screen application that allows you to track accomplishments with the CRUD functionality. It was created following stories 2 -5 during the sprint.
+ - The CookieJar.exe is an application you can access on the full screen that allows you to track accomplishments with the CRUD functionality. It was created following stories 2 -5 during the sprint where I created a CRUD functionality that tracks accomplishments within a database,
  
  <br>
 
@@ -104,7 +104,7 @@
   <ol>
     <ul>
       <p><br>
-  I create a model for tracking Accomplishments with an objects manager for accessing the database, Create a model form that will include any inputs the user needs to make, add a views function that renders the an html create page and utilizes the model form to save the collection item to the database.
+  I create a model for tracking Accomplishments with an objects manager for accessing the database, created a model form that will include any inputs the user needs to make, add a views function that renders the an html create page and utilizes the model form to save the collection item to the database.
       </p>
       <li> Model-    
 https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71f0661360b7deb38fe4b2f0ff7d3c127/Accomplishment-CookieJar/AccomplishmentTracker/models.py#L4-L17
@@ -126,19 +126,9 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
 <details>
   <summary>Story 3: Display all items from database <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_read.html">[TPL]</a></summary>
   <ol>
+    <br>
+   * Displayed information from the database in a page by creating a new HTML page, linked it from your home page. Add in a function that gets all the items from the database and sends them to the template. Display a list of items from the database, with some of the fields for that item displayed with labels/headers. Add whatever styling is appropriate to your templates. 
     <ul>
-      <p><br>
-  Display information from the database in a page. Create a new HTML page, link it from your home page. Add in a function that gets all the items from the database and sends them to the template. Display a list of items from the database, with some of the fields for that item displayed with labels/headers. Add whatever styling is appropriate to your templates. 
-      </p>
-      <li> Model-    
-
-      </li>
-      <li> Model Form-
-
-      </li>
-      <li> View-
-        https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71f0661360b7deb38fe4b2f0ff7d3c127/Accomplishment-CookieJar/AccomplishmentTracker/views.py#L45-L50
-      </li>
     </ul>
   </ol>
 </details>
@@ -147,15 +137,8 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
   <summary>Story 4: Details page <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_details.html">[TPL]</a></summary>
   <ol>
     <ul><br>
-      <p>
-  Created a details page that will show the details of any single item from within the database, as selected by the user, link this to the base page for each item. Add a details template to the template folder, register the url pattern. Create a views function that will find a single item from the database and send it to the template. Add in a link for each item on the display all items page that will direct to the details page for that item. Display all the details of the item on the details page. 
-      </p>
-      <li> Model-    
-        
-      </li>
-      <li> View-
-
-      </li>
+Created a details page that will show the details of any single item from within the database, as selected by the user, link this to the base page for each item. Add a details template to the template folder, register the url pattern. Create a views function that will find a single item from the database and send it to the template. Add in a link for each item on the display all items page that will direct to the details page for that item. Display all the details of the item on the details page. 
+      <br>
     </ul>
   </ol>
 </details>
@@ -165,37 +148,11 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/6a11c4e71
 ## Update and Delete 
 
 <details>
-  <summary>Story 5: Edit and Delete Functions<a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_update.html">[Edit TPL]</a><a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_delete.html">[Delete TPL]</a></summary>
+  <summary>Story 5: Edit and Delete Functions <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_update.html">[Edit TPL]</a><a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_delete.html">[Delete TPL]</a></summary>
   <ol>
     <ul><br>
-      <p>
-
-  Allow for edits and delete functions to be done from the details page or from separate pages. Have confirmation before deleting. 
-
-Add an edit page to the templates (another pattern url) 
-
-Use model forms and instances to display the content of a single item from the database 
-
-Have the views function send the information for the single item and save any changes. 
-
-Include the option to delete an item with a confirmation that the user wants to delete. 
-
-Add whatever styling is appropriate to your templates. 
-
-You are finished with the story when you have a functioning edit page for any item in the database, and the ability to delete that item. Make sure to test and debug before submitting. 
-
-Optional Add-On: 
--Use a modal and javascript for the delete confirmation message 
-      </p>
-      <li> Model-    
-
-      </li>
-      <li> Model Form-
-
-      </li>
-      <li> View-
-
-      </li>
+I added an edit and delete function that dispays a confirmation before deleting message, an edit page, created a model form and instances to display the content of a single accomplishment from the database, have the views function send the information for the single item and save any changes. 
+        <br>
     </ul>
   </ol>
 </details>
@@ -206,62 +163,24 @@ Optional Add-On:
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/BeautifulSoup.PNG" alt="Web-Scraping" width="960" height="540">
 
+- 
+
 <details>
-  <summary>Story 6: Setup Beautiful Soup<a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html">[TPL]</a></summary>
+  <summary>Story 6: Setup Beautiful Soup <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html">[TPL]</a></summary>
   <ol>
     <ul><br>
-      <p>
-  Create a new template for displaying information sourced from another website. Use Beautiful Soup to data scrape the site and find the relevant information. 
-
-Create a new template for displaying the content 
-
-Use Beautiful Soup to get the html data from your selected site as a navigable object 
-
-Utilizing whatever options necessary, get the section of data you want to scrape 
-
-Add comments to note which portions of the data you're trying to extract 
-
-Link the data scraping page to the app's home page 
-      </p>
-      <li> Model-    
-
-      </li>
-      <li> Model Form-
-
-      </li>
-      <li> View-
-
-      </li>
+  I create a new template for displaying information sourced from another website that explains what the Cookie Jar theory is, used <a href="https://www.tutorialspoint.com/beautiful_soup/beautiful_soup_quick_guide.htm">Beautiful Soup</a> to data scrape the site for qoutes about the Cookie Jar theory, create a new template for displaying the content and linked the data <a href="https://productiveclub.com/cookie-jar-method/#How_to_apply_the_cookie_jar_method">scraping page</a> to the app's home page 
+      <br>
     </ul>
   </ol>
 </details>
 
 <details>
-  <summary>Story 7: Parse through HTML<a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html">[TPL]</a></summary>
+  <summary>Story 7: Parse through HTML <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html">[TPL]</a></summary>
   <ol>
     <ul><br>
-      <p>
-  Parse through the html returned and display the information you want to display. Make sure you are getting into the individual elements and stripping away any formatting you don't want. Add a link from your app's home page. 
-
-Get elements out of your Beautiful Soup object, send just the values you want as relevant dictionary objects to the template (nested dictionaries are fine) 
-
-Display all objects within the data scrape template 
-
-Test to make sure everything works as expected, do error handling where necessary 
-
-Add whatever styling is appropriate to your templates. 
-
-This is the last Beautiful Soup story. Make sure it has all the functionality that you want. 
-      </p>
-      <li> Model-    
-
-      </li>
-      <li> Model Form-
-
-      </li>
-      <li> View-
-
-      </li>
+Parse through the html, returned and displayed the information from scraping page, made sure to get into the individual elements and stripping away any formatting I didn't want, got elements out of the Beautiful Soup object, sent just the values I wanted as relevant dictionary objects to the template, display all objects within the data scrape template.
+      <br>
     </ul>
   </ol>
 </details>
@@ -273,87 +192,56 @@ This is the last Beautiful Soup story. Make sure it has all the functionality th
 <img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="API" width="960" height="540">
 
 <details>
-  <summary>Story 6: Connect to API<a href="">[TPL]</a></summary>
+  <summary>Story 6: Connect to API <a href="">[TPL]</a></summary>
   <ol>
     <ul><br>
-      <p>
-  Connect to your chosen API and get the JSON response, add in a template for displaying the information. 
-
-Create a new API template and render with a function 
-
-Go through the API documentation 
-
-Connect to the API and write a basic JSON response (either to a txt file or the terminal) 
-
-Add comments of which elements from the JSON response you're looking to get the value for 
-
-Link the API request page to the app's home page. 
-
-      </p>
-      <li> Model-    
-
-      </li>
-      <li> Model Form-
-
-      </li>
-      <li> View-
-
-      </li>
+Connected my chosen <a href="https://jokeapi.dev/">Joke API<a>, read the API documentation, created a new API template rendered with a function, connected to the API and write a basic JSON response (either to a txt file or the terminal).
+    <br>
     </ul>
   </ol>
 </details>
 
 <details>
-  <summary>Story 7: Parse through JSON<a href="">[TPL]</a></summary>
+  <summary>Story 7: Parse through JSON <a href="">[TPL]</a></summary>
   <ol>
     <ul><br>
-      <p>
-  Parse through the JSON file returned and display the information you want to display. Make additional queries to the API as necessary. Add a link from your app's home page. 
+Parse through the JSON file returned and display the information you want to display. Add a link from your app's home page. 
 
 Get elements out of your API JSON response, send just the values you want as relevant dictionary objects to the template (nested dictionaries are fine) 
 
 Display all objects either in the original API service page or in a new results page. 
 
 Test to make sure all the options work as expected, do error handling where necessary 
-
-Add whatever styling is appropriate to your templates. 
-
-This is the last API story. Make sure it has all the functionality that you want. 
-
-You are finished with the story when you have information displaying from the API on your API page, and you've added all functionality you want to interact with the API. Make sure to test and debug before submitting. 
-      </p>
-      <li> Model-    
-
-      </li>
-      <li> Model Form-
-
-      </li>
-      <li> View-
-
-      </li>
+    <br>
     </ul>
   </ol>
 </details>
 
  
 <details>
-  <summary>Story 9: Save API or scraped results<a href="">[TPL]</a></summary>
+  <summary>Story 9: Save API or scraped results <a href="">[Joke API TPL SAVE]</a> <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/at_save_joke_api.html">[Joke API TPL READ]</a></summary>
   <ol>
     <ul><br>
       <p>
-  Allow the user to save "favorites" of an item either from the information detailed from the API or from Beautiful Soup. This could mean working with the existing model or creating a new one to pull the information from the response, create the appropriate object, and add it to the database. 
-
-You are finished with the story when you have the ability to save an item to the database with a few clicks from either your API page or your Data Scraping page. It is fine to have additional pages for the confirmation and display process. 
+We were given the choice whether to save "favorites" of an item either from the information detailed from the API or from Beautiful Soup. I decided to choice to save jokes from my Joke API. I did this by creating a new model to pull the information from the response, creating the appropriate object, and adding it to the database. 
+        
+ This was one story that I defintely struggled with the most and is where I had to reach out to a very kind team memeber of mine who showed me a very fasinating way of inplemnting my save button. The way she showed me was creating a new model, model form, and creating a template with the form that autofilled the entrys with the jokes from the Joke API. Then the most interesting part was actually hiding the whole form except for the save button with CSS.
 
       </p>
-      <li> Model-    
-
+      <li> Model
+https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399ceae7c0742b9932d0206070a20fea5a/Accomplishment-CookieJar/AccomplishmentTracker/models.py#L23-L30
       </li>
-      <li> Model Form-
-
+      <li> Model Form for Save Button
+https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399ceae7c0742b9932d0206070a20fea5a/Accomplishment-CookieJar/AccomplishmentTracker/forms.py#L12-L16
       </li>
-      <li> View-
-
+      <li> Views for Save and Read Joke API
+https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399ceae7c0742b9932d0206070a20fea5a/Accomplishment-CookieJar/AccomplishmentTracker/views.py#L120-L134
+      </li>
+      <li> Template
+        https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399ceae7c0742b9932d0206070a20fea5a/Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/at_save_joke_api.html#L1-L7
+      </li>
+      <li> CSS that hides form except save button
+      https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399ceae7c0742b9932d0206070a20fea5a/Accomplishment-CookieJar/AccomplishmentTracker/static/css/AccomplishmentTracker_layout.css#L281-L283
       </li>
     </ul>
   </ol>
