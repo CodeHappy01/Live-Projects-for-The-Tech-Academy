@@ -348,11 +348,11 @@ So media queries was defintely something that I had trouble working with. The bi
 
 # Skills Acquired: 
 
-- Gaining more hands on experince Full Stack Develeopment with Python and the Django Framework.
+- Gaining more hands on experince with Full Stack Development in Python and the Django Framework.
  
 - Using Canva to create backgrounds, icons, and more!
     
--  Working with a team of others under the Devops work environment with Agile/Scrum methodologies where we had daily meetings and weekly code retrospectives. This experince defintely taught me alot of very valuble work ethics such as how to communicate effectivly with a team during developement that I will take with me moving forward in my coding jourey.
+-  Working and communicating effectivly with a team under the Devops work environment with Agile/Scrum methodologies where we had daily meetings and weekly code retrospectives. This experience taught me alot of very valuble work ethics that I will definitely take with me moving forward in my coding jourey.
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
