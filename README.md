@@ -71,7 +71,7 @@
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/Canva.png" alt="My-Application" width="960" height="540">
 
-- How I made my background, icons and most of my styling really come to life was by utilizing [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright free assets of images both free or paid. I highly recommend it to anyone!
+- How I made my background, icons and most of my styling really come to life was by utilizing [Canva](https://www.canva.com/), a graphic design platform that is used to create visual content for social media, presentations, websites and more! The site gives you access to many copyright assets. I highly recommend it to anyone, beginner to advanced, that is into styling and designing!
 
 <br>
 
@@ -84,7 +84,7 @@
 
  <img src="Accomplishment-CookieJar/images/ScreenShots/Welcome.PNG" alt="Welcome" width="960" height="540">
  
- -Computer screen application that explains what the Cookie Jar method is and briefly explains what each other application does.
+ - Computer screen application that explains what the Cookie Jar method is and briefly explains what each other application does.
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +92,7 @@
 
  <img src="https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/main/Accomplishment-CookieJar/gifs/CookieJar.exe.gif" alt="CRUD" width="960" height="540">
  
- - The CookieJar.exe is an application you can access on the full screen that allows you to track accomplishments with the CRUD functionality. It was created following stories 2 -5 during the sprint where I created a CRUD functionality that tracks accomplishments within a database,
+ - The CookieJar.exe is an application you can access on the full screen that allows you to CREATE accomplishments, dropping them into the cookie jar that turns them into a cookie to READ, UPDATE and DELETE. It was created following stories 2 -5.
  
  <br>
 
@@ -163,7 +163,7 @@ I added an edit and delete function that dispays a confirmation before deleting 
 
 <img src="Accomplishment-CookieJar/images/ScreenShots/BeautifulSoup.PNG" alt="Web-Scraping" width="960" height="540">
 
-- 
+- The Beautiful Soup is an application you can access on the full screen that displays scraped data from a web page that explains what the cookie jar theory is.
 
 <details>
   <summary>Story 6: Setup Beautiful Soup <a href="Accomplishment-CookieJar/AccomplishmentTracker/templates/AccomplishmentTracker/AccomplishmentTracker_BS.html">[TPL]</a></summary>
@@ -190,7 +190,7 @@ Parse through the html, returned and displayed the information from scraping pag
 # Joke API: 
 
 <img src="Accomplishment-CookieJar/gifs/JokeAPI.gif" alt="API" width="960" height="540">
-
+- The Joke API is an application you can access on the full screen that allows you to read randomly generated jokes and save the jokes to read later.
 <details>
   <summary>Story 6: Connect to API <a href="">[TPL]</a></summary>
   <ol>
@@ -251,14 +251,14 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399
 
 # Front End Development:
 
-- 
+- The Front End is where I really found my enjoyment using things like Canva, Django Templates, CSS, and Javascript to help piece everything together. From creating backgrounds of a cozy bed room that you can access a computer with applications that open up into windows to a chearful office building background decorated with Christmas decorations and that has countdown to Christmas Day!
 
 <details>
-  <summary>Story 8: Front End Improvements<a href="">[CSS]</a></summary>
+  <summary>Story 8: Front End Improvements</summary>
   <ol>
     <ul><br>
       <p>
-  I went back to my templates/CSS/JS and add improvements to the UI/UX.
+  I went back to my templates/CSS/JS and added improvements to the UI/UX.
       </p>
     </ul>
   </ol>
@@ -344,17 +344,11 @@ So media queries was defintely something that I had trouble working with. The bi
 
 # Skills Acquired: 
 
+- Gaining more hands on experince Full Stack Develeopment with Python and the Django Framework.
  
-
-- A skill that I found to be pretty good at is utilizing Canva’s to build my backgrounds and icons for my web application. Being able to express my creativity without spending too much time with my own drawings   definitely something that I will take with me and  
-
- 
-
-- Another is being able to work with a team of others and communicating how my application works, and even helping others.  
-
- 
-
-- Obvious skills that I note from the project was working with the model, view, templates layout of django,.  
+- Using Canva to create backgrounds, icons, and more!
+    
+-  Working with a team of others under the Devops work environment with Agile/Scrum methodologies where we had daily meetings and weekly code retrospectives. This experince defintely taught me alot of very valuble work ethics such as how to communicate effectivly with a team during developement that I will take with me moving forward in my coding jourey.
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
