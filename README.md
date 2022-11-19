@@ -311,7 +311,7 @@ https://github.com/CodeHappy01/Live-Projects-for-The-Tech-Academy/blob/2fbe46399
   </ol>
 </details>
 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
 
 ## Christmas
 
